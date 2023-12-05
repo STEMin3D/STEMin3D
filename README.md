@@ -2,7 +2,8 @@
 This repository holds various documentation files. 
 "Documentation files" are your lab notes that contain information such as (1) a description of a specific task, (2) new ideas, (3) todos, (4) in-document discussion, (5) to-do items, etc.
 
-<table><tr><td>Your lab note should contain *enough details* so that a 3rd person can reproduce your result just by following steps in your report.</td></tr></table>
+> [!IMPORTANT]
+> Your lab note should contain *enough details* so that a 3rd person can reproduce your result just by following steps in your report.
 
 ## 👀 A short tutorial on how to use git and this repository
 The fact that you are reading this README file indicates that you already created your GitHub account. You will need to use your GitHub account information in step #3 below.
@@ -46,15 +47,16 @@ git commit -a     # this may bring up an editor window where you can add a commi
 git push          # Synchronize the remote repository with changes from your local directory.
 ```
 
-`Step 7` Useful tips. Any git commands (or most commands) can have an option flag "-n" which means a dry-run. 
-When you want to check if a command runs OK but do not want to make actual changes, add this option. 
-```shell
-git add -n <new_file>   # see if this command creates any error or warning (due to a possible conflict)
-git rm -n <a file>      # likewise..
-```
-
-`Step 8` Your daily work on the project should start with the command "git fetch" which will guarantee that your 
+`Step 7` Your daily work on the project should start with the command "git fetch" which will guarantee that your 
 local directory is sync with the remote repository. The remote repository might have been changed since your 
 previous work due to changes made by someone else or by yourself on another machine.
 
-Here is a 1-page [git cheatsheet](https://rogerdudler.github.io/git-guide/files/git_cheat_sheet.pdf) that can be handy. 
+> [!TIP]
+> Any git commands (or most commands) can have an option flag "-n" which means a dry-run. 
+> When you want to check if a command runs OK but do not want to make actual changes, add this option. 
+> ```shell
+> git add -n <new_file>   # see if this command creates any error or warning (due to a possible conflict)
+> git rm -n <a file>      # likewise..
+> ```
+>
+> Here is a 1-page [git cheatsheet](https://rogerdudler.github.io/git-guide/files/git_cheat_sheet.pdf) that can be handy. 
