@@ -1,9 +1,14 @@
-# Documentation
-This repository holds various documentation files. 
-"Documentation files" are your lab notes that contain information such as (1) a description of a specific task, (2) new ideas, (3) todos, (4) in-document discussion, (5) to-do items, etc.
+# STEMin3D GitHub Repository
+This repository has three main subdirectories each of which holds specific files for the [STEMin3D Project](https://STEMin3D.net).
+
+  * [Documentation Folder](Documentations): contains project notes
+  * [Storyboard Folder](Storyboard): contains storyboard files
+  * [Script Folder](Scripts): contains 3-D model scripts
+
+In addition to these files, you can create any relevant files to hold information such as (1) a description of a specific task, (2) new ideas, (3) todos, (4) in-document discussion, (5) to-do items, etc.
 
 > [!IMPORTANT]
-> Your lab note should contain *enough details* so that a 3rd person can reproduce your result just by following steps in your report.
+> Your project note should contain *enough details* so that a 3rd person can reproduce your result just by following steps in your report.
 
 ## 👀 A short tutorial on how to use git and this repository
 The fact that you are reading this README file indicates that you already created your GitHub account. You will need to use your GitHub account information in step #3 below.
