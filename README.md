@@ -15,16 +15,15 @@ The fact that you are reading this README file indicates that you already create
 
 There are mainly two ways to use the git/repository: (1) the command-line approach in a terminal and (2) by using the [GitHub Desktop application](https://desktop.github.com/). This tutorial shows how to use our repository using the terminal approach. For using an app, you can find relevant tutorials by searching the internet.
 
-`Step 1` First step is installing *Git*. Read [this tutorial](https://github.com/git-guides/install-git) to install it on your machine.
+`Step 1` First step is installing *Git* and *GitHub CLI*. Read [this tutorial](https://github.com/git-guides/install-git) and https://cli.github.com/ to install them on your machine.
 
 `Step 2` Open a *terminal* in your computer, and follow the rest of the steps below.
 
 `Step 3` Because our repository is a __private__ one, one has to authenticate to access the content.
 ```shell
-git config --global user.name "Put your name here"
-git config --global user.email "Put your email here"
-# after this step, git commands that try to access the remote repository may prompt you for a password.
-```
+gu auth login
+# Then, follow the direction on the terminal.```
+
 `Step 4` Create a directory where you will work for this project. In this example, ***STEM3D_repo*** is used. 
 Then, the first thing to do is to clone the content of the remote repository to your local directory. 
 To clone, you need to know the git address which you find by clicking `<> Code` in the menu bar on the GitHub homepage.
