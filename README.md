@@ -22,7 +22,8 @@ There are mainly two ways to use the git/repository: (1) the command-line approa
 `Step 3` Because our repository is a __private__ one, one has to authenticate to access the content.
 ```shell
 gu auth login
-# Then, follow the direction on the terminal.```
+# Then, follow the directions on the terminal.
+```
 
 `Step 4` Create a directory where you will work for this project. In this example, ***STEM3D_repo*** is used. 
 Then, the first thing to do is to clone the content of the remote repository to your local directory. 
