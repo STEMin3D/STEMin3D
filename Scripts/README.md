@@ -38,5 +38,5 @@ The Astronomical Sky Tracker is a Blender add-on designed for tracking and visua
 ## Credits
 
 - Developed by Michael Cai.
-- Used code and help from B-MH from Peking University to help with some parts of the code
+- Used code and help from B-MH and YuXiZa from Peking University to help with some parts of the code
 - This project utilizes astronomical algorithms from the `ephem` library for precise calculations of celestial positions.
