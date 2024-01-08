@@ -29,8 +29,15 @@ The Astronomical Sky Tracker is a Blender add-on designed for tracking and visua
 6. Click `Generate Celestial` to create the celestial bodies in Blender.
 7. Adjust your view and settings as needed to explore the astronomical simulation.
 
+## Current To-Do List
+
+1. Create and update position of camera to align with date and time.
+2. Fix the apperance of all celestial planets after 2nd run of simulation on the same blender file.
+3. Fix the lighting of the celestial bodies in order to reduce lag time.
+
 ## Notes
 
+- Some aspects of the simulation are still being worked on and could possibly have bugs.
 - It's recommended to use this add-on in an empty Blender project as existing elements might be affected.
 - The add-on converts local time to Greenwich Mean Time (GMT) for calculations, considering user-input time zones.
 - The generated celestial bodies are based on user inputs and real astronomical data for accurate positioning.
