@@ -1,3 +1,7 @@
+# STEMin3D GitHub is an Enterprise
+We have decided to transform the STEMin3D repositories into an Enterprise, and doing so will provide many benefits (near-infinite storage space, a dedicated domain name under UGA [e.g., stemin3d.uga.edu, etc.). 
+
+With this change, all users need to activate the 2-factor authentication similar to the login processes using MyID. To activate the 2-factor authentication for your GitHub, [follow this instruction](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication).
 # STEMin3D GitHub Repository
 This repository has three main subdirectories each of which holds specific files for the [STEMin3D Project](https://STEMin3D.net).
 
