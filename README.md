@@ -25,7 +25,7 @@ There are mainly two ways to use the git/repository: (1) the command-line approa
 
 `Step 3` Because our repository is a __private__ one, one has to authenticate to access the content.
 ```shell
-gu auth login
+gh auth login
 # Then, follow the directions on the terminal.
 ```
 
