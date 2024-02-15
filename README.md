@@ -29,13 +29,10 @@ gh auth login
 # Then, follow the directions on the terminal.
 ```
 
-`Step 4` Create a directory where you will work for this project. In this example, ***STEM3D_repo*** is used. 
-Then, the first thing to do is to clone the content of the remote repository to your local directory. 
-To clone, you need to know the git address which you find by clicking `<> Code` in the menu bar on the GitHub homepage.
+`Step 4` Change to your working directory and clone the STEMin3D repository using the following command. Cloning will create a directory, **STEMin3D**, and all relevant files are copied under this directory. 
+Different options for cloning the repository (e.g., via HTTPS) are available and you can check those options by clicking `<> Code` in the menu bar on the GitHub homepage.
 ```shell
-mkdir STEM3D_repo      # this command assumes you are using Linux
-cd STEM3D_repo
-git clone https://github.com/STEMin3D/Documentation.git
+gh repo clone STEMin3D/STEMin3D
 ```
 `Step 5` Start your work in the local directory. You may create a subdirectory(ies), create new files, 
 delete some old no-longer-useful files, modify existing files, etc. After you finish your work, you need to 
