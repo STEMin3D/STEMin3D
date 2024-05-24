@@ -1,0 +1,71 @@
+import bpy
+
+class AccountPanel(bpy.types.Panel):
+   bl_label = "Account"
+   bl_idname = "OBJECT_PT_custom_account"
+   bl_space_type = 'VIEW_3D'
+   bl_region_type = 'UI'
+   bl_category = "Custom Category"
+
+   def draw(self, context):
+       layout = self.layout
+
+       for label in ["Account Name: "]:
+           layout.label(text=label)
+
+class TimePanel(bpy.types.Panel):
+   bl_label = "Time"
+   bl_idname = "OBJECT_PT_custom_time"
+   bl_space_type = 'VIEW_3D'
+   bl_region_type = 'UI'
+   bl_category = "Custom Category"
+
+   def draw(self, context):
+       layout = self.layout
+
+       layout.label(text="Current Time:")
+       layout.label(text="Select Time:")
+       layout.prop(context.scene, "day", text="Day")
+       layout.prop(context.scene, "month", text="Month")
+       layout.prop(context.scene, "year", text="Year")
+
+class SettingsPanel(bpy.types.Panel):
+   bl_label = "Settings"
+   bl_idname = "OBJECT_PT_custom_settings"
+   bl_space_type = 'VIEW_3D'
+   bl_region_type = 'UI'
+   bl_category = "Custom Category"
+
+   def draw(self, context):
+       layout = self.layout
+
+       layout.label(text="Rendering Strength")
+       layout.prop(context.scene, "rendering_strength", text="")
+       layout.label(text="Travel Speed")
+       layout.prop(context.scene, "travel_speed", text="")
+
+def register():
+   bpy.types.Scene.day = bpy.props.IntProperty(name="Day", min=1, max=31)
+   bpy.types.Scene.month = bpy.props.IntProperty(name="Month", min=1, max=12)
+   bpy.types.Scene.year = bpy.props.IntProperty(name="Year", min=1900, max=2099)
+   bpy.types.Scene.rendering_strength = bpy.props.EnumProperty(
+       name="Rendering Strength",
+       items=[
+           ("LIGHT", "Light", ""),
+           ("MEDIUM", "Medium", ""),
+           ("ULTRA", "Ultra", "")
+       ]
+   )
+   bpy.types.Scene.travel_speed = bpy.props.IntProperty(name="Travel Speed", min=0, max=100)
+   
+   bpy.utils.register_class(AccountPanel)
+   bpy.utils.register_class(TimePanel)
+   bpy.utils.register_class(SettingsPanel)
+
+def unregister():
+   bpy.utils.unregister_class(AccountPanel)
+   bpy.utils.unregister_class(TimePanel)
+   bpy.utils.unregister_class(SettingsPanel)
+
+if __name__ == "__main__":
+   register()
