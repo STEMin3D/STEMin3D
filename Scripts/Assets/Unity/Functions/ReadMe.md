@@ -15,14 +15,14 @@
 
 3. **Link the Submit Button**
    - Expand the `Canvas` prefab in the "Hierarchy" panel.
-   - Drag the "Button" game object to the "Submit Button" field in the `ScriptHandler` component on the `ScriptHandler` prefab.
+   - Drag the "Button" game object to the "Submit Button" field in the `Close` script on the `ScriptHandler` prefab.
     
 4. **Set Up Input Fields**
-   - Expand the `ScriptHandler` prefab.
+   - Expand the `Input Fields` list in the `Close` script.
    - Drag each input field (a, e, i, o, w, v) to the `InputFields` list in the `Close` script in that order.
 
 5. **Set Up Create Slider Script**
-   - Drag the "Eccentricity" game object to the "Sliders Parent" field in the `CreateSlider` component on the `ScriptHandler` prefab.
+   - Drag the "Eccentricity" game object to the "Sliders Parent" field in the `CreateSlider` script on the `ScriptHandler` prefab.
   
 6. **Configure Button Click Event**
    - Select the "Button" game object in the `Canvas`.
