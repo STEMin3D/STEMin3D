@@ -34,7 +34,7 @@
 
 ## Troubleshooting
 **Input fields have no placeholder text**
-Press the "Play" button to run the scene and then press it again to stop it. This should make the placeholder text in Inputfields appear.
+   - Press the "Play" button to run the scene and then press it again to stop it. This should make the placeholder text in Inputfields appear.
 
 **Button and Input fields don't work**
-Insure that an "Event system" gameobject is present in the Hierarchy window. UI componets won't work correctly without one.
+   - Insure that an "Event system" gameobject is present in the Hierarchy window. UI componets won't work correctly without one.
