@@ -43,3 +43,11 @@
 
 **Sliders don't appear when the button is clicked**
    - Make sure that the gameobject named "Eccentricity" is used for the `SlidersParent`. If the eccentricity input field is used instead, the sliders won't appear as they won't have a `SlidersParent`.
+
+## Result
+The finished UI should look and work as follows:
+
+   1. In the bottom right-hand side of the screen, there are six input fields with the symbol of its Orbital Element next to it. Below each input field, there should be a grayed-out slider. Bellow that, their is a button labled 'Set.'
+   2. The user will then type out the value of each Orbital Element in the respective input field.
+   3. Once the 'Set' button is pressed, the input fields, the 'Set' button, and the grayed-out sliders will disappear and be replaced with active sliders set to the inputted values, with their current values displayed right above them.
+   4. The user can then move the sliders to adjust the values.
