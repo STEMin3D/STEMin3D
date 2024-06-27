@@ -55,21 +55,20 @@ The finished UI should look and work as follows:
 ## How to access the Slider Values
 To acces the values from the sliders in your own scripts, you can use the following example script:
 
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.UI;
-
-public class SliderValueReader : MonoBehaviour
-{
-    // Reference to the sliders
-    public Slider semiMajorAxisSlider;
-
-    void Update()
+    using System.Collections;
+    using System.Collections.Generic;
+    using UnityEngine;
+    using UnityEngine.UI;
+    
+    public class SliderValueReader : MonoBehaviour
     {
-        // Access the current value of the slider
-        float semiMajorAxis = semiMajorAxisSlider.value;
+       // Reference to the sliders
+       public Slider semiMajorAxisSlider;
+       void Update()
+       {
+           // Access the current value of the slider
+           float semiMajorAxis = semiMajorAxisSlider.value;
 
-        // Do something with the values
+           // Do something with the values
+       }
     }
-}
