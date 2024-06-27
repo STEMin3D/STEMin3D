@@ -51,3 +51,25 @@ The finished UI should look and work as follows:
    2. The user will then type out the value of each Orbital Element in the respective input field.
    3. Once the 'Set' button is pressed, the input fields, the 'Set' button, and the grayed-out sliders will disappear and be replaced with active sliders set to the inputted values, with their current values displayed right above them.
    4. The user can then move the sliders to adjust the values.
+
+## How to access the Slider Values
+To acces the values from the sliders in your own scripts, you can use the following example script:
+
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class SliderValueReader : MonoBehaviour
+{
+    // Reference to the sliders
+    public Slider semiMajorAxisSlider;
+
+    void Update()
+    {
+        // Access the current value of the slider
+        float semiMajorAxis = semiMajorAxisSlider.value;
+
+        // Do something with the values
+    }
+}
