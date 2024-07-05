@@ -16,7 +16,7 @@ public class ConeMaker : MonoBehaviour
     {
         earthCone = Instantiate(conePrefab,sun.transform.position, Quaternion.identity);
         moonCone = Instantiate(conePrefab,sun.transform.position, Quaternion.identity);
-        OnToggleChanged(true);
+        ToggleEclipse(true);
     }
 
     // Update is called once per frame
@@ -46,7 +46,7 @@ public class ConeMaker : MonoBehaviour
         return r1*d/(r1+r2);
     }
 
-    public void OnToggleChanged(bool isSolar)
+    public void ToggleEclipse(bool isSolar)
     {
         moonCone.SetActive(isSolar);
         earthCone.SetActive(!isSolar);
