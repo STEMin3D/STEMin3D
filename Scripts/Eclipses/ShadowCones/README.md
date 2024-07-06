@@ -10,5 +10,6 @@
 3. Place FreeFlyCamera.cs script on the Main Camera.
    - FreeFlyCamera is in charge of allowing the user to move around the scene. 
    - All properties are self explanatory, so feel free to change as neccessary. 
+   - Use left click to rotate camera and left click+WASD to move around You can also hold left click+QE to move up and down. Use mouse scroll wheel to zoom.
 
 Note: If you want to toggle different eclipses, call the ToggleEclipse function in ConeMaker.cs. An example is given in Scenes/simple_system_demo.unity.
