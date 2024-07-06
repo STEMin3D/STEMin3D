@@ -14,8 +14,8 @@ public class ConeMaker : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        earthCone = Instantiate(conePrefab,sun.transform.position, Quaternion.identity);
-        moonCone = Instantiate(conePrefab,sun.transform.position, Quaternion.identity);
+        earthCone = Instantiate(conePrefab,earth.transform.position, Quaternion.identity);
+        moonCone = Instantiate(conePrefab,moon.transform.position, Quaternion.identity);
         ToggleEclipse(true);
     }
 
@@ -29,16 +29,16 @@ public class ConeMaker : MonoBehaviour
     void UpdateCone(GameObject cone, GameObject target)
     {
         cone.transform.position = new Vector3(
-            sun.transform.position.x,
-            sun.transform.position.y,
-            sun.transform.position.z
+            target.transform.position.x,
+            target.transform.position.y,
+            target.transform.position.z
         );
         cone.transform.localScale = new Vector3(
-            sun.transform.localScale.x*2,
-            sun.transform.localScale.y*2,
+            target.transform.localScale.x*2,
+            target.transform.localScale.y*2,
             GetConeLength(sun.transform.localScale.x,target.transform.localScale.x, Vector3.Distance(sun.transform.position, target.transform.position))
         );
-        cone.transform.LookAt(target.transform);
+        cone.transform.LookAt(cone.transform.position - (sun.transform.position-cone.transform.position));
     }
     
     float GetConeLength(float r1, float r2, float d)

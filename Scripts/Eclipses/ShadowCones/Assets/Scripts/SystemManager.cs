@@ -7,7 +7,7 @@ public class sunscript : MonoBehaviour
     public float sun_radius_scaling = 350000;
     public float sunearth_distance_scaling = 12416666;
     public float earth_radius_scaling = 6378;
-    public float earthmoon_distance_scaling = 12800;
+    public float earthmoon_distance_scaling = 12100;
     public float moon_radius_scaling = 3480;
     
     public GameObject sun;
@@ -16,8 +16,8 @@ public class sunscript : MonoBehaviour
 
     public Transform light;
     
-    public float moonRotationSpeed = 10;
-    public float earthRotationSpeed = 10;
+    public float moonRotationSpeed = 100;
+    public float earthRotationSpeed = 5;
 
     private float sunradius = 700000;
     private float earthradius = 6378;
