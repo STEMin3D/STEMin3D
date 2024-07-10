@@ -18,3 +18,5 @@
    - Use left click to rotate camera and left click+WASD to move around You can also hold left click+QE to move up and down. Use mouse scroll wheel to zoom.
 
 Note: If you want to toggle different eclipses, call the "ToggleEclipse" function in "./Scripts/ConeMaker.cs". An example is given in "./Scenes/simple_system_demo.unity".
+
+An example unity project has been provided under "ShadowConesUnity.zip".
