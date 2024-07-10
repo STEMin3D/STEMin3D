@@ -15,7 +15,7 @@
 3. **Run the Project**
    - Save the scene and press "Play" to test the functionality.
    - The trail won't show up unless the gameobject is moving.
-   - The trail won't show up if the 
+   - The trail won't show up in the scene view, if the `Orbital trail` is a child of some gameobject.
 
 ## Result
 As the parent of the `Orbital trail` prefab moves around in the game view, a blue trail should appear behind the gameobject and disappear after a few seconds.
