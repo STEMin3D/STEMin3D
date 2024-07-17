@@ -1,0 +1,140 @@
+[33mf7d1bc3[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m Track large file with Git LFS
+[33mc0d70ce[m Added the orbital path
+[33m2060b20[m Added a orbital path
+[33m11a47d3[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Delete Scripts/Solar_Rotation/Full_Project/Solar Cycle.zip
+[33m7e46c08[m Update Solar Cycle.zip
+[33m6c10577[m Create SolarCycle.zip
+[33m59e3f73[m update README
+[33m3fdaf41[m fix shadow cones
+[33m2dbb451[m clean up README
+[33mac09f96[m update README
+[33m479fa6f[m clean up
+[33m5771a4f[m init README
+[33mba2a41a[m init project
+[33me092a93[m Add files via upload
+[33m2c8727f[m Delete Scripts/Eclipses/Shadow_Cones
+[33m082232b[m Create Shadow_Cones
+[33md01cd9b[m Update ReadMe.md
+[33mfde5155[m Update ReadMe.md
+[33mca19d05[m Update ReadMe.md
+[33m2fd506f[m Update ReadMe.md
+[33mf3e081a[m Updated UI package
+[33mc4086d4[m Update ReadMe.md
+[33m2b1f229[m Update ReadMe.md
+[33m8508d78[m Update ReadMe.md
+[33m8b429d7[m Update ReadMe.md
+[33m499b730[m Create ReadMe.md
+[33m576e11d[m Added the UI for accepting the Orbital Elements
+[33meebc2e8[m Merge branch 'main' of https://github.com/STEMin3D/STEMin3D
+[33m1e5e1d4[m Updated the Sun and fixed the storage of the files.
+[33m28f1405[m adding project file
+[33m862f615[m Create README.md
+[33m65dd063[m Create slider_script.cs
+[33m5591c84[m Create reverse_rotation.cs
+[33m802b537[m Create image_rotation.cs
+[33mc8dcfc0[m Create camera_rotation.cs
+[33m4fb509a[m Add files via upload
+[33m435eb9a[m Add files via upload
+[33mee53680[m Add files via upload
+[33m9db4fbc[m Add files via upload
+[33mec79616[m Creating a folder
+[33md67116e[m Merge branch 'main' of https://github.com/STEMin3D/STEMin3D
+[33me1025ae[m Added the sun and corrected Saturn's rings.
+[33m6dd9a01[m Create ReadMe.md
+[33m4512f28[m Added the prefabs for the 8 planets and the moon.
+[33m25caa89[m Create ReadMe.md
+[33mb93dcc8[m Create README.md
+[33m9bc1a73[m Merge branch 'main' of https://github.com/STEMin3D/STEMin3D
+[33m54d91c4[m Updated Simulation
+[33m54f47d5[m Create Eclipse_Python_UI_1
+[33m809ef15[m Simulation Update
+[33m8a50359[m SimulationUpdatesMay20th
+[33m8b2ac07[m PythonUITesting.Blend
+[33m16ed22a[m LunarSim Update 3.0.0
+[33m2debf0f[m Simulation Updates
+[33me2423ae[m Files
+[33mbba33a4[m Update README.md
+[33m103d29a[m Create README.md
+[33m6faab47[m Added LunarSimV1.blend
+[33me776dcc[m Create Current LunarSolar Simulation March 31st
+[33mbcf1ade[m Delete Current solar-lunar Simulation
+[33mf867b31[m Create Current solar-lunar Simulation
+[33m30c2464[m Merge pull request #1 from STEMin3D/blender-on-quest3-documentation
+[33m2816dbd[m Rename SkyTracker_README.md to README.md
+[33mcc6ad78[m Rename Scripts/SkyTracker/README.md to Scripts/README.md
+[33maba9d6c[m Solar Cycle Update 2
+[33mfe7ffdd[m Moved Location of Solar Cycle Project
+[33mb2316ee[m Update README.md
+[33m122134b[m Update README.md
+[33m5aae741[m SolarCycleRotationUpdate1
+[33mfd4dd31[m Solar_Cycle_Rotation
+[33me6264f5[m Delete sample_new_file.txt
+[33m800aa0b[m Rename Scripts/__init__.py to Scripts/SkyTracker/__init__.py
+[33m7029304[m Rename Scripts/SkyTracker_README.md to Scripts/SkyTracker/SkyTracker_README.md
+[33m41592ff[m Rename Scripts/E_Generate_Sun_Moon_Planet.py to Scripts/SkyTracker/E_Generate_Sun_Moon_Planet.py
+[33m26e501f[m Update and rename Scripts/D_Generate_the_stars.py to Scripts/SkyTracker/D_Generate_the_stars.py
+[33m95ad6e9[m Rename Scripts/CelestialCoordinates.blend to Scripts/SkyTracker/CelestialCoordinates.blend
+[33m41ad8b2[m Update and rename Scripts/C_Convert_star_info.py to Scripts/SkyTracker/C_Convert_star_info.py
+[33m48dd223[m Update and rename Scripts/B_Preparing_the_Blender_Scene.py to Scripts/SkyTracker/B_Preparing_the_Blender_Scene.py
+[33m3de47a0[m Rename Scripts/AstronomicalSkyTracker.py to Scripts/SkyTracker/AstronomicalSkyTracker.py
+[33ma247e7e[m Update and rename Scripts/A_Generate_UI.py to Scripts/SkyTracker/A_Generate_UI.py
+[33mc9af6d9[m Rename Scripts/README.md to Scripts/SkyTracker/README.md
+[33mf2604fe[m Create README.md
+[33m3c805cd[m add Abstract...docx
+[33m4bcf3a1[m Rename __init__[1].py to __init__.py
+[33me540fbd[m Rename E_Generate_Sun_Moon_Planet[1].py to E_Generate_Sun_Moon_Planet.py
+[33mc737bc6[m Update and rename D_Generate_the_stars[1].py to D_Generate_the_stars.py
+[33m92edad4[m Update and rename C_Convert_star_info[1].py to C_Convert_star_info.py
+[33m8e809c0[m Update and rename B_Preparing_the_Blender_Scene[1].py to B_Preparing_the_Blender_Scene.py
+[33m24474a4[m Update and rename A_Generate_UI[1].py to A_Generate_UI.py
+[33m5963616[m Update README.md
+[33md926cd9[m Added Unity file types for lfs tracking
+[33m4f70d8c[m Create SkyTracker_README.md
+[33m6be04f5[m Update README.md
+[33m895250f[m Merge branch 'main' of github.com:STEMin3D/STEMin3D
+[33m2dec5dd[m add CelestialCoordinates.blend
+[33m3bc3902[m Update README.md
+[33m658b9a2[m Update README.md
+[33m6a0b275[m Delete html/dummy
+[33mf0d79d4[m trial index.php file for the webpage
+[33m0aaf2a7[m Create dummy
+[33mf624ac2[m Update README.md
+[33m2ae1419[m Update Blender-on-Quest-3.md
+[33m42431f9[m Update Blender-on-Quest-3.md
+[33m8f98db9[m Update Blender-on-Quest-3.md
+[33m02525e8[m Update Blender-on-Quest-3.md
+[33m9faabee[m Delete Documentations/Blender/Quest3/test.md
+[33mfc48fb9[m Rename Documentations/Blender-on-Quest-3.md to Documentations/Blender/Quest3/Blender-on-Quest-3.md
+[33ma2549e1[m Created folders in Documentation through github
+[33m5a1f820[m Update Blender-on-Quest-3.md
+[33m2db5fb1[m Update Blender-on-Quest-3.md
+[33mfd4da59[m Create Blender-on-Quest-3.md
+[33m51e59bf[m Add files via upload
+[33m92dd58a[m Update README.md
+[33m63a5151[m Update README.md
+[33mb239fff[m Update README.md
+[33m63197c8[m Update README.md
+[33mac078d8[m Add files via upload
+[33meba36ff[m Update README.md
+[33m3443e5d[m Astronomical Sky Tracker UI
+[33m764163a[m Update README.md
+[33m567942c[m Update README.md
+[33md06447a[m Some comments.
+[33ma78406f[m General guideline
+[33m1496091[m Rename README.md to README.md
+[33m76fbe53[m Contains Blender/Unreal Engine/Unity scripts
+[33mdcdf173[m Delete Documentation
+[33md874e29[m Contains various documentations
+[33mb1f67e0[m Contains Storyboard files
+[33mfb3e1fe[m Delete Storyboard
+[33mce01ce4[m Create README.md
+[33m0fdade2[m Documentation
+[33mc6918e0[m Create Storyboard
+[33mc6741f7[m Create Blender-and-Unrealengine
+[33mfea69a7[m Update README.md
+[33md80cfe9[m V0.9 README
+[33mbf8df94[m Update README.md
+[33m837dc80[m Update README.md
+[33m2332a1b[m Update README.md
+[33m42c1056[m Update README.md
+[33m04680c6[m first commit
