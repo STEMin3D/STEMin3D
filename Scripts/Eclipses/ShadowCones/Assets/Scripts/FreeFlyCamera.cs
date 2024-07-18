@@ -149,10 +149,10 @@ public class FreeFlyCamera : MonoBehaviour
 
         //SetCursorState();
 
-       //if (Cursor.visible)
-         //  return;
-         if (!Input.GetMouseButton(0))
-         return;
+        //if (Cursor.visible)
+           //return;
+        if (!Input.GetMouseButton(1))
+            return;
 
         // Translation
         if (_enableTranslation)

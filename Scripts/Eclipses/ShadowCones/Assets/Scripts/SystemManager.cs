@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class sunscript : MonoBehaviour
+public class SystemManager : MonoBehaviour
 {
     public float sun_radius_scaling = 350000;
     public float sunearth_distance_scaling = 12416666;
@@ -18,6 +18,7 @@ public class sunscript : MonoBehaviour
     
     public float moonRotationSpeed = 100;
     public float earthRotationSpeed = 5;
+    public float timeScale = 1;
 
     private float sunradius = 700000;
     private float earthradius = 6378;
@@ -50,10 +51,14 @@ public class sunscript : MonoBehaviour
 
     void Orbit(GameObject source, GameObject orbiter, float speed)
     {
-        orbiter.transform.RotateAround(source.transform.position, Vector3.up, speed*Time.deltaTime);
-        orbiter.transform.Rotate(Vector3.up*speed*Time.deltaTime);
+        orbiter.transform.RotateAround(source.transform.position, Vector3.up, speed*Time.deltaTime*timeScale);
+        orbiter.transform.Rotate(Vector3.up*speed*Time.deltaTime*timeScale);
     }
 
+    public void SetTimeScale(float ts)
+    {
+        timeScale = ts;
+    }
     
 }
 

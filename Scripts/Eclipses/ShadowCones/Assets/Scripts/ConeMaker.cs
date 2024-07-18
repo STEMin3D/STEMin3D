@@ -28,21 +28,27 @@ public class ConeMaker : MonoBehaviour
 
     void UpdateCone(GameObject cone, GameObject target)
     {
+        // Have the cone follow the object
         cone.transform.position = new Vector3(
             target.transform.position.x,
             target.transform.position.y,
             target.transform.position.z
         );
+        
+        // Setting the size of the cone based on the calculation in word document
         cone.transform.localScale = new Vector3(
             target.transform.localScale.x*2,
             target.transform.localScale.y*2,
             GetConeLength(sun.transform.localScale.x,target.transform.localScale.x, Vector3.Distance(sun.transform.position, target.transform.position))
         );
+
+        // Point cone away from light source
         cone.transform.LookAt(cone.transform.position - (sun.transform.position-cone.transform.position));
     }
     
     float GetConeLength(float r1, float r2, float d)
     {
+        // See word document for information on equation
         return r1*d/(r1+r2);
     }
 
