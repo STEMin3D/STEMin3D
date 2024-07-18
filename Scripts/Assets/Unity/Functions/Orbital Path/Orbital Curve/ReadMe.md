@@ -1,5 +1,9 @@
 # Orbital Curve
 
+## Objective
+
+The user will be able to create a curve to represent the orbital path of an object. The orientation of the curve will depend on the inputted orbital elements.
+
 ## Steps to implement
 
 1. **Download and Import the Package**
@@ -31,4 +35,5 @@
  - Change the `Eccentrcity` to change how circular the path is.
  - Change the `Inclination` to change the tilt of the path.
  - Change the XYZ values of the `Offset` variable to change the center of the path.
- - To change the color of the path, create a new material with the prefered color and replace the `Blue` material with your own.
+ - To change the color of the curve, create a new material with the prefered color and replace the `Blue` material with your own.
+ - To change the width of the curve, grab the node located in the "Positions" section of the `Line Renderer` component and move it up or down.
