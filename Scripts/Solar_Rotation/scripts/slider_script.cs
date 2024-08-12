@@ -6,10 +6,10 @@ using UnityEngine.UI;
 
 public class slider_script : MonoBehaviour
 {
-    // initiation of objects
+    // initiation
     [SerializeField] private Slider slider;
     [SerializeField] private TextMeshProUGUI sliderText;
-    // Start is called before the first frame update
+
     void Start()
     {
         // sets initial period calculation and puts on UI
@@ -19,7 +19,6 @@ public class slider_script : MonoBehaviour
         
     }
 
-    // Update is called once per frame
     void Update()
     {
         // updates period calculation. Note since rotation speed is calculated w/ framerate this doesnt need adjustment
