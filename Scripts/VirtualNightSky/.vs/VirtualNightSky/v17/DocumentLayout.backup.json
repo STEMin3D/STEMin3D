@@ -1,14 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\jacka\\VirtualNightSky\\",
+  "WorkspaceRootPath": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jacka\\VirtualNightSky\\Assets\\Earth1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Earth1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6AB4FD8B-082C-96F4-CC8A-B96F87FBBC06}|Assembly-CSharp.csproj|c:\\github\\stemin3d\\scripts\\virtualnightsky\\assets\\constellationfinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AB4FD8B-082C-96F4-CC8A-B96F87FBBC06}|Assembly-CSharp.csproj|solutionrelative:assets\\constellationfinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6AB4FD8B-082C-96F4-CC8A-B96F87FBBC06}|Assembly-CSharp.csproj|C:\\Users\\jacka\\VirtualNightSky\\assets\\earth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AB4FD8B-082C-96F4-CC8A-B96F87FBBC06}|Assembly-CSharp.csproj|solutionrelative:assets\\earth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6AB4FD8B-082C-96F4-CC8A-B96F87FBBC06}|Assembly-CSharp.csproj|C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\assets\\backface bumped diffuse.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{6AB4FD8B-082C-96F4-CC8A-B96F87FBBC06}|Assembly-CSharp.csproj|solutionrelative:assets\\backface bumped diffuse.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AB4FD8B-082C-96F4-CC8A-B96F87FBBC06}|Assembly-CSharp.csproj|C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\assets\\camerarotator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AB4FD8B-082C-96F4-CC8A-B96F87FBBC06}|Assembly-CSharp.csproj|solutionrelative:assets\\camerarotator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AB4FD8B-082C-96F4-CC8A-B96F87FBBC06}|Assembly-CSharp.csproj|C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\assets\\celestialobjectscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AB4FD8B-082C-96F4-CC8A-B96F87FBBC06}|Assembly-CSharp.csproj|solutionrelative:assets\\celestialobjectscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jacka\\VirtualNightSky\\Assets\\Earth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AB4FD8B-082C-96F4-CC8A-B96F87FBBC06}|Assembly-CSharp.csproj|C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\assets\\datasetter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AB4FD8B-082C-96F4-CC8A-B96F87FBBC06}|Assembly-CSharp.csproj|solutionrelative:assets\\datasetter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,30 +33,79 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Earth1.cs",
-              "DocumentMoniker": "C:\\Users\\jacka\\VirtualNightSky\\Assets\\Earth1.cs",
-              "RelativeDocumentMoniker": "Assets\\Earth1.cs",
-              "ToolTip": "C:\\Users\\jacka\\VirtualNightSky\\Assets\\Earth1.cs",
-              "RelativeToolTip": "Assets\\Earth1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "CelestialObjectScript.cs",
+              "DocumentMoniker": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\CelestialObjectScript.cs",
+              "RelativeDocumentMoniker": "Assets\\CelestialObjectScript.cs",
+              "ToolTip": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\CelestialObjectScript.cs",
+              "RelativeToolTip": "Assets\\CelestialObjectScript.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACoAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T01:21:41.662Z",
+              "WhenOpened": "2024-10-29T04:39:23.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ConstellationFinder.cs",
+              "DocumentMoniker": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\ConstellationFinder.cs",
+              "RelativeDocumentMoniker": "Assets\\ConstellationFinder.cs",
+              "ToolTip": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\ConstellationFinder.cs",
+              "RelativeToolTip": "Assets\\ConstellationFinder.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAgwEoAAADGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T04:16:20.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DataSetter.cs",
+              "DocumentMoniker": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\DataSetter.cs",
+              "RelativeDocumentMoniker": "Assets\\DataSetter.cs",
+              "ToolTip": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\DataSetter.cs",
+              "RelativeToolTip": "Assets\\DataSetter.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAgwGYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T01:22:47.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CameraRotator.cs",
+              "DocumentMoniker": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\CameraRotator.cs",
+              "RelativeDocumentMoniker": "Assets\\CameraRotator.cs",
+              "ToolTip": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\CameraRotator.cs",
+              "RelativeToolTip": "Assets\\CameraRotator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T00:04:42.874Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Backface Bumped Diffuse.shader",
+              "DocumentMoniker": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\Backface Bumped Diffuse.shader",
+              "RelativeDocumentMoniker": "Assets\\Backface Bumped Diffuse.shader",
+              "ToolTip": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\Backface Bumped Diffuse.shader",
+              "RelativeToolTip": "Assets\\Backface Bumped Diffuse.shader",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2024-10-19T21:38:13.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Earth.cs",
               "DocumentMoniker": "C:\\Users\\jacka\\VirtualNightSky\\Assets\\Earth.cs",
-              "RelativeDocumentMoniker": "Assets\\Earth.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Users\\jacka\\VirtualNightSky\\Assets\\Earth.cs",
               "ToolTip": "C:\\Users\\jacka\\VirtualNightSky\\Assets\\Earth.cs",
-              "RelativeToolTip": "Assets\\Earth.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAA2AAAAAAAAAA==",
+              "RelativeToolTip": "..\\..\\..\\..\\Users\\jacka\\VirtualNightSky\\Assets\\Earth.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-06T19:34:40.954Z"
             }
