@@ -1,3 +1,4 @@
+//This code partly comes from user bdougie on Github, but the constellation map code is hand written
 using System.Collections.Generic;
 using UnityEngine;
 

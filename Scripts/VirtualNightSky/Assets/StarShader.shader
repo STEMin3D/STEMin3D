@@ -1,3 +1,4 @@
+//This code comes from user bdougie on Github
 Shader "Unlit/StarShader"
 {
     Properties
