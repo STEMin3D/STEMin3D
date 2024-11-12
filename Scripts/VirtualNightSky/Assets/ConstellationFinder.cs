@@ -28,7 +28,7 @@ public class ConstellationFinder : MonoBehaviour
         labelArray = new GameObject[data.Length];
         for (int i = 0; i<data.Length; i++)
         {
-            raAngle = (rightAscension1[i] + rightAscension2[i] / 60 + rightAscension3[i] / 60 / 60) * 15 / 360 * 2 * Mathf.PI;
+            raAngle = -(rightAscension1[i] + rightAscension2[i] / 60 + rightAscension3[i] / 60 / 60) * 15 / 360 * 2 * Mathf.PI;
             dAngle = Mathf.Sign(declination1[i]) * (Mathf.Abs(declination1[i]) + declination2[i] / 60 + declination3[i] / 60 / 60) / 360 * 2 * Mathf.PI;
             float x = distance * Mathf.Cos(dAngle) * Mathf.Cos(raAngle);
             float y = distance * Mathf.Cos(dAngle) * Mathf.Sin(raAngle);
