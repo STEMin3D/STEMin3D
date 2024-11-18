@@ -13,7 +13,7 @@ public class ConstellationFinder : MonoBehaviour
     public float[] declination1;
     public float[] declination2;
     public float[] declination3;
-    private int distance = 975;
+    public int distance = 975;
     private TextAsset rawData;
     private float raAngle;
     private float dAngle;
@@ -115,5 +115,10 @@ public class ConstellationFinder : MonoBehaviour
         declination1 = temp5;
         declination2 = temp6;
         declination3 = temp7;
+    }
+
+    public GameObject[] GetLabelArray()
+    {
+        return labelArray;
     }
 }
