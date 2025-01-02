@@ -20,7 +20,11 @@ public class CameraRotator : MonoBehaviour
         if (Input.GetMouseButton(0))
         {
             Vector2 del = end - start;
-            transform.Rotate(new Vector3(del.y, -del.x, 0)*Time.deltaTime*10f);
+            if (del.y*Time.deltaTime*5f+Camera.main.transform.localEulerAngles.x>=275&&del.y * Time.deltaTime * 5f + Camera.main.transform.localEulerAngles.x<=360)
+            {
+                Camera.main.transform.RotateAround(Camera.main.transform.position, Camera.main.transform.right, del.y * Time.deltaTime * 3f);
+            }
+            Camera.main.transform.RotateAround(Camera.main.transform.position, Vector3.up, -del.x * Time.deltaTime * 3f);
         }
     }
 }

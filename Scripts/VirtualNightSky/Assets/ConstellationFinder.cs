@@ -121,4 +121,12 @@ public class ConstellationFinder : MonoBehaviour
     {
         return labelArray;
     }
+
+    public void LabelActivation(bool status)
+    {
+        foreach (GameObject obj in labelArray)
+        {
+            obj.SetActive(status);
+        }
+    }
 }

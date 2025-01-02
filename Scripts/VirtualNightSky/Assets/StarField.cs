@@ -1,7 +1,9 @@
 //This code partly comes from user bdougie on Github, but the constellation map code is hand written
 //other portions were also added to meet specific needs of this project
 using System.Collections.Generic;
+using UnityEditor.Rendering.HighDefinition;
 using UnityEngine;
+using UnityEngine.Rendering.HighDefinition;
 
 public class StarField : MonoBehaviour
 {
@@ -12,12 +14,13 @@ public class StarField : MonoBehaviour
     private List<StarDataLoader.Star> stars;
     private List<GameObject> starObjects;
     private Dictionary<int, GameObject> constellationVisible = new();
-    private readonly int starFieldScale = 400;
+    public int starFieldScale = 400;
     private ConstellationFinder cfinder;
     private GameObject[] labelArray;
     public GameObject mainCamera;
     private Vector3 camDirection;
-    public bool constellationsShouldDissapear;
+    public bool constellationsShouldDisappear;
+    public Material starMaterial;
     void Start()
     {
         // Read in the star data.
@@ -34,10 +37,9 @@ public class StarField : MonoBehaviour
             //stargo.transform.localScale = Vector3.one * Mathf.Lerp(starSizeMin, starSizeMax, star.size);
             stargo.transform.LookAt(transform.position);
             stargo.transform.Rotate(0, 180, 0);
-            Material material = stargo.GetComponent<MeshRenderer>().material;
-            material.shader = Shader.Find("Unlit/StarShader");
-            material.SetFloat("_Size", Mathf.Lerp(starSizeMin, starSizeMax, star.size));
-            material.color = star.colour;
+            stargo.GetComponent<MeshRenderer>().material = starMaterial;
+            HDMaterial.SetEmissiveIntensity(stargo.GetComponent<MeshRenderer>().material, Mathf.Lerp(starSizeMin, starSizeMax, star.size) * 100f, EmissiveIntensityUnit.Nits);
+            HDMaterial.SetEmissiveColor(stargo.GetComponent<MeshRenderer>().material, star.colour);
             starObjects.Add(stargo);
         }
         cfinder = mainCamera.GetComponent<ConstellationFinder>();
@@ -48,29 +50,18 @@ public class StarField : MonoBehaviour
         }
     }
 
-    // Could also do in Update with Time.deltatime scaling.
-    private void FixedUpdate()
-    {
-        if (Input.GetKey(KeyCode.Mouse1))
-        {
-            Camera.main.transform.RotateAround(Camera.main.transform.position, Camera.main.transform.right, Input.GetAxis("Mouse Y"));
-            Camera.main.transform.RotateAround(Camera.main.transform.position, Vector3.up, -Input.GetAxis("Mouse X"));
-        }
-        return;
-    }
-
     private void Update()
     {
-        if (constellationsShouldDissapear)
+        if (constellationsShouldDisappear)
         {
             camDirection = mainCamera.transform.forward * cfinder.distance;
             for (int i = 0; i < labelArray.Length; i++)
             {
-                if ((camDirection - labelArray[i].transform.position).magnitude < 200 && !constellationVisible.ContainsKey(i))
+                if ((camDirection - labelArray[i].transform.position).magnitude < 50 && !constellationVisible.ContainsKey(i))
                 {
                     ToggleConstellation(i);
                 }
-                else if ((camDirection - labelArray[i].transform.position).magnitude >= 200 && constellationVisible.ContainsKey(i))
+                else if ((camDirection - labelArray[i].transform.position).magnitude >= 50 && constellationVisible.ContainsKey(i))
                 {
                     ToggleConstellation(i);
                 }
