@@ -13,18 +13,10 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638713701398164542
-    m_Hash: 4256174573
+      ticks: 638714104020844164
+    m_Hash: 2846030974
 m_EmbeddedPackageManifests:
-  m_ManifestsStatus:
-    C:/Github/STEMin3D/Scripts/VirtualNightSky/Packages/com.unity.render-pipelines.high-definition-config/package.json:
-      m_FilePath: C:/Github/STEMin3D/Scripts/VirtualNightSky/Packages/com.unity.render-pipelines.high-definition-config/package.json
-      m_PathExists: 1
-      m_ContentTrackingEnabled: 1
-      m_ModificationDate:
-        serializedVersion: 2
-        ticks: 638574130320000000
-      m_Hash: 2338316625
+  m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: C:/Github/STEMin3D/Scripts/VirtualNightSky/Packages
@@ -756,12 +748,12 @@ m_ResolvedPackages:
   isDeprecated: 0
   deprecationMessage: 
   fingerprint: 
-- packageId: com.unity.render-pipelines.high-definition-config@file:C:\Github\STEMin3D\Scripts\VirtualNightSky\Packages\com.unity.render-pipelines.high-definition-config
-  testable: 1
+- packageId: com.unity.render-pipelines.high-definition-config@14.0.11
+  testable: 0
   isDirectDependency: 1
   version: 14.0.11
-  source: 3
-  resolvedPath: C:\Github\STEMin3D\Scripts\VirtualNightSky\Packages\com.unity.render-pipelines.high-definition-config
+  source: 2
+  resolvedPath: C:\Github\STEMin3D\Scripts\VirtualNightSky\Library\PackageCache\com.unity.render-pipelines.high-definition-config@14.0.11
   assetPath: Packages/com.unity.render-pipelines.high-definition-config
   name: com.unity.render-pipelines.high-definition-config
   displayName: High Definition RP Config

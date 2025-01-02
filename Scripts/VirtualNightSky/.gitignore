@@ -5,7 +5,6 @@
 /[Bb]uilds/
 /[Ll]ogs/
 /[Mm]emoryCaptures/
-!/[Pp]ackages/
 .vs/
 .idea/
 .vscode/
