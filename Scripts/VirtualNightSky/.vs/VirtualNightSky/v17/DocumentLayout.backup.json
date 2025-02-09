@@ -3,44 +3,24 @@
   "WorkspaceRootPath": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6AB4FD8B-082C-96F4-CC8A-B96F87FBBC06}|Assembly-CSharp.csproj|C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\assets\\starfield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AB4FD8B-082C-96F4-CC8A-B96F87FBBC06}|Assembly-CSharp.csproj|solutionrelative:assets\\starfield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6AB4FD8B-082C-96F4-CC8A-B96F87FBBC06}|Assembly-CSharp.csproj|c:\\github\\stemin3d\\scripts\\virtualnightsky\\assets\\sphereshader.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{6AB4FD8B-082C-96F4-CC8A-B96F87FBBC06}|Assembly-CSharp.csproj|solutionrelative:assets\\sphereshader.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6AB4FD8B-082C-96F4-CC8A-B96F87FBBC06}|Assembly-CSharp.csproj|C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\assets\\stardataloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AB4FD8B-082C-96F4-CC8A-B96F87FBBC06}|Assembly-CSharp.csproj|solutionrelative:assets\\stardataloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6AB4FD8B-082C-96F4-CC8A-B96F87FBBC06}|Assembly-CSharp.csproj|C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\assets\\scripts\\starfield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AB4FD8B-082C-96F4-CC8A-B96F87FBBC06}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\starfield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6AB4FD8B-082C-96F4-CC8A-B96F87FBBC06}|Assembly-CSharp.csproj|C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\assets\\constellationfinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AB4FD8B-082C-96F4-CC8A-B96F87FBBC06}|Assembly-CSharp.csproj|solutionrelative:assets\\constellationfinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6AB4FD8B-082C-96F4-CC8A-B96F87FBBC06}|Assembly-CSharp.csproj|C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\assets\\starshader.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{6AB4FD8B-082C-96F4-CC8A-B96F87FBBC06}|Assembly-CSharp.csproj|solutionrelative:assets\\starshader.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6AB4FD8B-082C-96F4-CC8A-B96F87FBBC06}|Assembly-CSharp.csproj|c:\\github\\stemin3d\\scripts\\virtualnightsky\\assets\\camerarotator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AB4FD8B-082C-96F4-CC8A-B96F87FBBC06}|Assembly-CSharp.csproj|solutionrelative:assets\\camerarotator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Library\\PackageCache\\com.unity.render-pipelines.high-definition@14.0.11\\Runtime\\Material\\Lit\\Lit.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.render-pipelines.high-definition@14.0.11\\Runtime\\Material\\Lit\\Lit.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Library\\PackageCache\\com.unity.shadergraph@14.0.11\\Editor\\Data\\Graphs\\SerializableTexture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.shadergraph@14.0.11\\Editor\\Data\\Graphs\\SerializableTexture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Library\\PackageCache\\com.unity.visualeffectgraph@14.0.11\\Editor\\Models\\VFXGraph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.visualeffectgraph@14.0.11\\Editor\\Models\\VFXGraph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Library\\PackageCache\\com.unity.visualeffectgraph@14.0.11\\Editor\\Core\\VFXLibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.visualeffectgraph@14.0.11\\Editor\\Core\\VFXLibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6AB4FD8B-082C-96F4-CC8A-B96F87FBBC06}|Assembly-CSharp.csproj|C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\assets\\scripts\\buttonactivatesobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AB4FD8B-082C-96F4-CC8A-B96F87FBBC06}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\buttonactivatesobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.11\\Shaders\\Lit.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.11\\Shaders\\Lit.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AB4FD8B-082C-96F4-CC8A-B96F87FBBC06}|Assembly-CSharp.csproj|C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\assets\\starshader.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{6AB4FD8B-082C-96F4-CC8A-B96F87FBBC06}|Assembly-CSharp.csproj|solutionrelative:assets\\starshader.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\Player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -55,15 +35,7 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.probuilder@5.2.3\\Runtime\\Core\\Submesh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6AB4FD8B-082C-96F4-CC8A-B96F87FBBC06}|Assembly-CSharp.csproj|C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\assets\\celestialobjectscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AB4FD8B-082C-96F4-CC8A-B96F87FBBC06}|Assembly-CSharp.csproj|solutionrelative:assets\\celestialobjectscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jacka\\VirtualNightSky\\Assets\\Earth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6AB4FD8B-082C-96F4-CC8A-B96F87FBBC06}|Assembly-CSharp.csproj|C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\assets\\datasetter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AB4FD8B-082C-96F4-CC8A-B96F87FBBC06}|Assembly-CSharp.csproj|solutionrelative:assets\\datasetter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\NewBehaviourScript1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -80,6 +52,62 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\Samples\\ProBuilder\\5.2.3\\Editor Examples\\CreateShadowObject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Samples\\ProBuilder\\5.2.3\\Editor Examples\\CreateShadowObject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\StarField.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\StarField.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\CameraRotator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\CameraRotator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\StarDataLoader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\StarDataLoader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\ConstellationFinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\ConstellationFinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\CelestialObjectScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\CelestialObjectScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\DataSetter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\DataSetter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:1:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Library\\PackageCache\\com.unity.render-pipelines.high-definition@14.0.11\\Runtime\\Material\\Lit\\Lit.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:1:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.render-pipelines.high-definition@14.0.11\\Runtime\\Material\\Lit\\Lit.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:1:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Library\\PackageCache\\com.unity.shadergraph@14.0.11\\Editor\\Data\\Graphs\\SerializableTexture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:1:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.shadergraph@14.0.11\\Editor\\Data\\Graphs\\SerializableTexture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:1:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Library\\PackageCache\\com.unity.visualeffectgraph@14.0.11\\Editor\\Models\\VFXGraph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:1:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.visualeffectgraph@14.0.11\\Editor\\Models\\VFXGraph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:1:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Library\\PackageCache\\com.unity.visualeffectgraph@14.0.11\\Editor\\Core\\VFXLibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:1:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.visualeffectgraph@14.0.11\\Editor\\Core\\VFXLibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:2:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Library\\PackageCache\\com.unity.shadergraph@14.0.11\\Editor\\Data\\Graphs\\SerializableTexture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:2:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.shadergraph@14.0.11\\Editor\\Data\\Graphs\\SerializableTexture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:2:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Library\\PackageCache\\com.unity.visualeffectgraph@14.0.11\\Editor\\Models\\VFXGraph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:2:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.visualeffectgraph@14.0.11\\Editor\\Models\\VFXGraph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:2:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Library\\PackageCache\\com.unity.render-pipelines.high-definition@14.0.11\\Runtime\\Material\\Lit\\Lit.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:2:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.render-pipelines.high-definition@14.0.11\\Runtime\\Material\\Lit\\Lit.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:2:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Library\\PackageCache\\com.unity.visualeffectgraph@14.0.11\\Editor\\Core\\VFXLibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:2:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.visualeffectgraph@14.0.11\\Editor\\Core\\VFXLibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -89,11 +117,88 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
+              "Title": "StarField.cs",
+              "DocumentMoniker": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\Scripts\\StarField.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\StarField.cs",
+              "ToolTip": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\Scripts\\StarField.cs",
+              "RelativeToolTip": "Assets\\Scripts\\StarField.cs",
+              "ViewState": "AgIAABMBAAAAAAAAAAAwwCkBAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T20:20:33.12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SphereShader.shader",
+              "DocumentMoniker": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\SphereShader.shader",
+              "RelativeDocumentMoniker": "Assets\\SphereShader.shader",
+              "ToolTip": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\SphereShader.shader",
+              "RelativeToolTip": "Assets\\SphereShader.shader",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2025-02-09T20:09:12.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ButtonActivatesObject.cs",
+              "DocumentMoniker": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\Scripts\\ButtonActivatesObject.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ButtonActivatesObject.cs",
+              "ToolTip": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\Scripts\\ButtonActivatesObject.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ButtonActivatesObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T19:54:43.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "SerializableTexture.cs",
+              "DocumentMoniker": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Library\\PackageCache\\com.unity.shadergraph@14.0.11\\Editor\\Data\\Graphs\\SerializableTexture.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.shadergraph@14.0.11\\Editor\\Data\\Graphs\\SerializableTexture.cs",
+              "ToolTip": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Library\\PackageCache\\com.unity.shadergraph@14.0.11\\Editor\\Data\\Graphs\\SerializableTexture.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.shadergraph@14.0.11\\Editor\\Data\\Graphs\\SerializableTexture.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T20:43:51.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "VFXGraph.cs",
+              "DocumentMoniker": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Library\\PackageCache\\com.unity.visualeffectgraph@14.0.11\\Editor\\Models\\VFXGraph.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.visualeffectgraph@14.0.11\\Editor\\Models\\VFXGraph.cs",
+              "ToolTip": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Library\\PackageCache\\com.unity.visualeffectgraph@14.0.11\\Editor\\Models\\VFXGraph.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.visualeffectgraph@14.0.11\\Editor\\Models\\VFXGraph.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAqwGgAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T20:59:09.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Lit.shader",
+              "DocumentMoniker": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Library\\PackageCache\\com.unity.render-pipelines.high-definition@14.0.11\\Runtime\\Material\\Lit\\Lit.shader",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.high-definition@14.0.11\\Runtime\\Material\\Lit\\Lit.shader",
+              "ToolTip": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Library\\PackageCache\\com.unity.render-pipelines.high-definition@14.0.11\\Runtime\\Material\\Lit\\Lit.shader",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.render-pipelines.high-definition@14.0.11\\Runtime\\Material\\Lit\\Lit.shader",
+              "ViewState": "AgIAAHgDAAAAAAAAAAAAAIkDAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2025-01-01T22:41:09.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
               "Title": "VFXLibrary.cs",
               "DocumentMoniker": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Library\\PackageCache\\com.unity.visualeffectgraph@14.0.11\\Editor\\Core\\VFXLibrary.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.visualeffectgraph@14.0.11\\Editor\\Core\\VFXLibrary.cs",
@@ -105,80 +210,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "SerializableTexture.cs",
-              "DocumentMoniker": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Library\\PackageCache\\com.unity.shadergraph@14.0.11\\Editor\\Data\\Graphs\\SerializableTexture.cs",
-              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.shadergraph@14.0.11\\Editor\\Data\\Graphs\\SerializableTexture.cs",
-              "ToolTip": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Library\\PackageCache\\com.unity.shadergraph@14.0.11\\Editor\\Data\\Graphs\\SerializableTexture.cs",
-              "RelativeToolTip": "Library\\PackageCache\\com.unity.shadergraph@14.0.11\\Editor\\Data\\Graphs\\SerializableTexture.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAwwEcAAABcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T20:43:51.871Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "CreateShadowObject.cs",
-              "DocumentMoniker": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\Samples\\ProBuilder\\5.2.3\\Editor Examples\\CreateShadowObject.cs",
-              "RelativeDocumentMoniker": "Assets\\Samples\\ProBuilder\\5.2.3\\Editor Examples\\CreateShadowObject.cs",
-              "ToolTip": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\Samples\\ProBuilder\\5.2.3\\Editor Examples\\CreateShadowObject.cs",
-              "RelativeToolTip": "Assets\\Samples\\ProBuilder\\5.2.3\\Editor Examples\\CreateShadowObject.cs",
-              "ViewState": "AgIAAH8AAAAAAAAAAIAwwJcAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T20:40:17.907Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Lit.shader",
-              "DocumentMoniker": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.11\\Shaders\\Lit.shader",
-              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.11\\Shaders\\Lit.shader",
-              "ToolTip": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.11\\Shaders\\Lit.shader",
-              "RelativeToolTip": "Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.11\\Shaders\\Lit.shader",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
-              "WhenOpened": "2025-01-01T20:20:33.821Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Player.cs",
-              "DocumentMoniker": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\Player.cs",
-              "RelativeDocumentMoniker": "Assets\\Player.cs",
-              "ToolTip": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\Player.cs",
-              "RelativeToolTip": "Assets\\Player.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwC0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T08:25:57.634Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "StarShader.shader",
-              "DocumentMoniker": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\StarShader.shader",
-              "RelativeDocumentMoniker": "Assets\\StarShader.shader",
-              "ToolTip": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\StarShader.shader",
-              "RelativeToolTip": "Assets\\StarShader.shader",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
-              "WhenOpened": "2024-11-12T05:54:50.837Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "StarField.cs",
-              "DocumentMoniker": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\StarField.cs",
-              "RelativeDocumentMoniker": "Assets\\StarField.cs",
-              "ToolTip": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\StarField.cs",
-              "RelativeToolTip": "Assets\\StarField.cs",
-              "ViewState": "AgIAAJ0BAAAAAAAAAAAkwEsAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T03:22:08.172Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 14,
               "Title": "CameraRotator.cs",
               "DocumentMoniker": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\CameraRotator.cs",
               "RelativeDocumentMoniker": "Assets\\CameraRotator.cs",
@@ -186,12 +218,11 @@
               "RelativeToolTip": "Assets\\CameraRotator.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAACiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T00:04:42.874Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-29T00:04:42.874Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 15,
               "Title": "StarDataLoader.cs",
               "DocumentMoniker": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\StarDataLoader.cs",
               "RelativeDocumentMoniker": "Assets\\StarDataLoader.cs",
@@ -199,12 +230,11 @@
               "RelativeToolTip": "Assets\\StarDataLoader.cs",
               "ViewState": "AgIAAIEAAAAAAAAAAAAYwAMAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T05:56:01.785Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T05:56:01.785Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 16,
               "Title": "ConstellationFinder.cs",
               "DocumentMoniker": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\ConstellationFinder.cs",
               "RelativeDocumentMoniker": "Assets\\ConstellationFinder.cs",
@@ -212,24 +242,23 @@
               "RelativeToolTip": "Assets\\ConstellationFinder.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAAwCIAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T04:16:20.517Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-29T04:16:20.517Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 21,
               "Title": "VFXGraph.cs",
               "DocumentMoniker": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Library\\PackageCache\\com.unity.visualeffectgraph@14.0.11\\Editor\\Models\\VFXGraph.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.visualeffectgraph@14.0.11\\Editor\\Models\\VFXGraph.cs",
               "ToolTip": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Library\\PackageCache\\com.unity.visualeffectgraph@14.0.11\\Editor\\Models\\VFXGraph.cs",
               "RelativeToolTip": "Library\\PackageCache\\com.unity.visualeffectgraph@14.0.11\\Editor\\Models\\VFXGraph.cs",
-              "ViewState": "AgIAAA0BAAAAAAAAAIAwwCUBAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAqwGgAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-01T20:59:09.82Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 19,
               "Title": "Lit.shader",
               "DocumentMoniker": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Library\\PackageCache\\com.unity.render-pipelines.high-definition@14.0.11\\Runtime\\Material\\Lit\\Lit.shader",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.high-definition@14.0.11\\Runtime\\Material\\Lit\\Lit.shader",
@@ -241,54 +270,78 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "NewUnlitShader.shader",
-              "DocumentMoniker": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\NewUnlitShader.shader",
-              "RelativeDocumentMoniker": "Assets\\NewUnlitShader.shader",
-              "ToolTip": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\NewUnlitShader.shader",
-              "RelativeToolTip": "Assets\\NewUnlitShader.shader",
+              "DocumentIndex": 3,
+              "Title": "Lit.shader",
+              "DocumentMoniker": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.11\\Shaders\\Lit.shader",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.11\\Shaders\\Lit.shader",
+              "ToolTip": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.11\\Shaders\\Lit.shader",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.11\\Shaders\\Lit.shader",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
-              "WhenOpened": "2024-11-12T03:16:07.801Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "NewBehaviourScript1.cs",
-              "DocumentMoniker": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\NewBehaviourScript1.cs",
-              "RelativeDocumentMoniker": "Assets\\NewBehaviourScript1.cs",
-              "ToolTip": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\NewBehaviourScript1.cs",
-              "RelativeToolTip": "Assets\\NewBehaviourScript1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T03:11:56.07Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Submesh.cs",
-              "DocumentMoniker": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Library\\PackageCache\\com.unity.probuilder@5.2.3\\Runtime\\Core\\Submesh.cs",
-              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.probuilder@5.2.3\\Runtime\\Core\\Submesh.cs",
-              "ToolTip": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Library\\PackageCache\\com.unity.probuilder@5.2.3\\Runtime\\Core\\Submesh.cs",
-              "RelativeToolTip": "Library\\PackageCache\\com.unity.probuilder@5.2.3\\Runtime\\Core\\Submesh.cs",
-              "ViewState": "AgIAAHoAAAAAAAAAAAAwwI8AAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T03:10:48.242Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "NewBehaviourScript.cs",
-              "DocumentMoniker": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\NewBehaviourScript.cs",
-              "RelativeDocumentMoniker": "Assets\\NewBehaviourScript.cs",
-              "ToolTip": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\NewBehaviourScript.cs",
-              "RelativeToolTip": "Assets\\NewBehaviourScript.cs",
-              "ViewState": "AgIAAI0AAAAAAAAAAAAAAJ8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T02:44:38.261Z"
+              "WhenOpened": "2025-01-01T20:20:33.821Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
+              "Title": "StarField.cs",
+              "DocumentMoniker": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\StarField.cs",
+              "RelativeDocumentMoniker": "Assets\\StarField.cs",
+              "ToolTip": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\StarField.cs",
+              "RelativeToolTip": "Assets\\StarField.cs",
+              "ViewState": "AgIAAJ0BAAAAAAAAAAAkwEsAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T03:22:08.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "VFXLibrary.cs",
+              "DocumentMoniker": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Library\\PackageCache\\com.unity.visualeffectgraph@14.0.11\\Editor\\Core\\VFXLibrary.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.visualeffectgraph@14.0.11\\Editor\\Core\\VFXLibrary.cs",
+              "ToolTip": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Library\\PackageCache\\com.unity.visualeffectgraph@14.0.11\\Editor\\Core\\VFXLibrary.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.visualeffectgraph@14.0.11\\Editor\\Core\\VFXLibrary.cs",
+              "ViewState": "AgIAABsCAAAAAAAAAIAwwDMCAAD0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T20:47:44.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CreateShadowObject.cs",
+              "DocumentMoniker": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\Samples\\ProBuilder\\5.2.3\\Editor Examples\\CreateShadowObject.cs",
+              "RelativeDocumentMoniker": "Assets\\Samples\\ProBuilder\\5.2.3\\Editor Examples\\CreateShadowObject.cs",
+              "ToolTip": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\Samples\\ProBuilder\\5.2.3\\Editor Examples\\CreateShadowObject.cs",
+              "RelativeToolTip": "Assets\\Samples\\ProBuilder\\5.2.3\\Editor Examples\\CreateShadowObject.cs",
+              "ViewState": "AgIAAH8AAAAAAAAAAIAwwJcAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T20:40:17.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SerializableTexture.cs",
+              "DocumentMoniker": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Library\\PackageCache\\com.unity.shadergraph@14.0.11\\Editor\\Data\\Graphs\\SerializableTexture.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.shadergraph@14.0.11\\Editor\\Data\\Graphs\\SerializableTexture.cs",
+              "ToolTip": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Library\\PackageCache\\com.unity.shadergraph@14.0.11\\Editor\\Data\\Graphs\\SerializableTexture.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.shadergraph@14.0.11\\Editor\\Data\\Graphs\\SerializableTexture.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T20:43:51.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\Player.cs",
+              "RelativeDocumentMoniker": "Assets\\Player.cs",
+              "ToolTip": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\Player.cs",
+              "RelativeToolTip": "Assets\\Player.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T08:25:57.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "CelestialObjectScript.cs",
               "DocumentMoniker": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\CelestialObjectScript.cs",
               "RelativeDocumentMoniker": "Assets\\CelestialObjectScript.cs",
@@ -300,7 +353,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "DataSetter.cs",
               "DocumentMoniker": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\DataSetter.cs",
               "RelativeDocumentMoniker": "Assets\\DataSetter.cs",
@@ -312,7 +365,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 6,
+              "Title": "NewUnlitShader.shader",
+              "DocumentMoniker": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\NewUnlitShader.shader",
+              "RelativeDocumentMoniker": "Assets\\NewUnlitShader.shader",
+              "ToolTip": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\NewUnlitShader.shader",
+              "RelativeToolTip": "Assets\\NewUnlitShader.shader",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2024-11-12T03:16:07.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NewBehaviourScript1.cs",
+              "DocumentMoniker": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\NewBehaviourScript1.cs",
+              "RelativeDocumentMoniker": "Assets\\NewBehaviourScript1.cs",
+              "ToolTip": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\NewBehaviourScript1.cs",
+              "RelativeToolTip": "Assets\\NewBehaviourScript1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T03:11:56.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Submesh.cs",
+              "DocumentMoniker": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Library\\PackageCache\\com.unity.probuilder@5.2.3\\Runtime\\Core\\Submesh.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.probuilder@5.2.3\\Runtime\\Core\\Submesh.cs",
+              "ToolTip": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Library\\PackageCache\\com.unity.probuilder@5.2.3\\Runtime\\Core\\Submesh.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.probuilder@5.2.3\\Runtime\\Core\\Submesh.cs",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAwwI8AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T03:10:48.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "NewBehaviourScript.cs",
+              "DocumentMoniker": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\NewBehaviourScript.cs",
+              "RelativeDocumentMoniker": "Assets\\NewBehaviourScript.cs",
+              "ToolTip": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\NewBehaviourScript.cs",
+              "RelativeToolTip": "Assets\\NewBehaviourScript.cs",
+              "ViewState": "AgIAAI0AAAAAAAAAAAAAAJ8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T02:44:38.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Backface Bumped Diffuse.shader",
               "DocumentMoniker": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\Backface Bumped Diffuse.shader",
               "RelativeDocumentMoniker": "Assets\\Backface Bumped Diffuse.shader",
@@ -324,7 +424,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 8,
               "Title": "Earth.cs",
               "DocumentMoniker": "C:\\Users\\jacka\\VirtualNightSky\\Assets\\Earth.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Users\\jacka\\VirtualNightSky\\Assets\\Earth.cs",
@@ -332,6 +432,18 @@
               "RelativeToolTip": "..\\..\\..\\..\\Users\\jacka\\VirtualNightSky\\Assets\\Earth.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-06T19:34:40.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StarShader.shader",
+              "DocumentMoniker": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\StarShader.shader",
+              "RelativeDocumentMoniker": "Assets\\StarShader.shader",
+              "ToolTip": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\StarShader.shader",
+              "RelativeToolTip": "Assets\\StarShader.shader",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2024-11-12T05:54:50.837Z"
             }
           ]
         }
