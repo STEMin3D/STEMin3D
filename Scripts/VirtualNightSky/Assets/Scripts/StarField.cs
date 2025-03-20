@@ -1,6 +1,7 @@
 //This code partly comes from user bdougie on Github, but the constellation map code is hand written
 //other portions were also added to meet specific needs of this project
 using System.Collections.Generic;
+using TMPro.Examples;
 using UnityEditor.Rendering.HighDefinition;
 using UnityEngine;
 using UnityEngine.Rendering.HighDefinition;
@@ -19,8 +20,10 @@ public class StarField : MonoBehaviour
     private GameObject[] labelArray;
     public GameObject mainCamera;
     private Vector3 camDirection;
-    public bool constellationsShouldDisappear;
     public Material starMaterial;
+
+    public bool constellationsShouldDisappear;
+    public bool noConstellations;
     void Start()
     {
         // Read in the star data.
@@ -38,15 +41,18 @@ public class StarField : MonoBehaviour
             stargo.transform.LookAt(transform.position);
             stargo.transform.Rotate(0, 180, 0);
             stargo.GetComponent<MeshRenderer>().material = starMaterial;
-            HDMaterial.SetEmissiveIntensity(stargo.GetComponent<MeshRenderer>().material, Mathf.Lerp(starSizeMin, starSizeMax, star.size) * 100f, EmissiveIntensityUnit.Nits);
+            HDMaterial.SetEmissiveIntensity(stargo.GetComponent<MeshRenderer>().material, Mathf.Lerp(starSizeMin, starSizeMax, star.size)*25f, EmissiveIntensityUnit.Nits);
             HDMaterial.SetEmissiveColor(stargo.GetComponent<MeshRenderer>().material, star.colour);
             starObjects.Add(stargo);
         }
         cfinder = mainCamera.GetComponent<ConstellationFinder>();
         labelArray = cfinder.GetLabelArray();
-        for (int i = 0; i < labelArray.Length; i++)
+        if (!noConstellations)
         {
-            ToggleConstellation(i);
+            for (int i = 0; i < labelArray.Length; i++)
+            {
+                ToggleConstellation(i);
+            }
         }
     }
 
@@ -244,7 +250,7 @@ public class StarField : MonoBehaviour
      new int[] { 7869,8140, 8140,8368, 8368,7986, 7986,7920, 7920,7869}),
     // Lacerta
     (new int[] { 8572, 8585, 8538, 8541, 8523, 8579, 8632, 8485, 8498},
-     new int[] { 8572,8585, 8585,8538, 8538,8541, 8541,8572, 8572,8523, 8523,8579, 8579,8632, 8632,8572, 8572,8485, 8485,8498}),
+     new int[] { 8572,8585, 8585,8538, 8538,8541, 8541,8572, 8572,8523, 8523,8579, 8579,8632, 8632,8572, 8579,8485, 8485,8498}),
     // Leo, courtesy of bdougie on Github
     (new int[] { 3982, 4534, 4057, 4357, 3873, 4031, 4359, 3975, 4399, 4386, 3905, 3773, 3731},
      new int[] { 4534,4357, 4534,4359, 4357,4359, 4357,4057, 4057,4031,
@@ -292,7 +298,7 @@ public class StarField : MonoBehaviour
      new int[] { 8254,8630, 8630,5339, 5339,8254}),
     // Ophiuchus
     (new int[] { 6698, 6629, 6603, 6556, 6299, 6056, 6075, 6129, 6175, 6378, 6147, 6104, 6113, 6453, 6492},
-     new int[] { 6698,6629, 6629,6603, 6603,6556, 6556,6299, 6299,6056, 6056,6075, 6075,6129, 6556,6378,
+     new int[] { 6698,6629, 6629,6603, 6603,6556, 6556,6299, 6299,6056, 6056,6075, 6075,6129, 6603,6378,
                  6129,6175, 6175,6378, 6299,6175, 6175,6147, 6147,6104, 6104,6113, 6378,6453, 6453,6492}),
     // Orion, courtesy of bdougie on Github
     (new int[] { 1948, 1903, 1852, 2004, 1713, 2061, 1790, 1907, 2124,
@@ -445,8 +451,9 @@ public class StarField : MonoBehaviour
             line.transform.parent = constellationHolder.transform;
             // Defaults to white and width 1 which works for us.
             LineRenderer lineRenderer = line.AddComponent<LineRenderer>();
-            // Doesn't get assigned a material so just dig out one that works.
-            lineRenderer.material = new Material(Shader.Find("Legacy Shaders/Particles/Alpha Blended Premultiply"));
+            lineRenderer.sortingOrder = 1;
+            // Need to use default sprite shader so lines are visible
+            lineRenderer.material = new Material(Shader.Find("Sprites/Default"));
             // Disable useWorldSpace so it will track the parent game object.
             lineRenderer.useWorldSpace = false;
             Vector3 pos1 = starObjects[lines[i] - 1].transform.position;
@@ -454,8 +461,9 @@ public class StarField : MonoBehaviour
             // Offset them so they don't occlude the stars, 3 chosen by trial and error.
             Vector3 dir = (pos2 - pos1).normalized * 3;
             lineRenderer.positionCount = 2;
-            lineRenderer.SetPosition(0, pos1 + dir);
-            lineRenderer.SetPosition(1, pos2 - dir);
+            lineRenderer.widthMultiplier = 1.5f;
+            lineRenderer.SetPosition(0, pos1);
+            lineRenderer.SetPosition(1, pos2);
         }
     }
 

@@ -20,6 +20,8 @@ public class ConstellationFinder : MonoBehaviour
     private string[] data;
     private GameObject Label;
     private GameObject[] labelArray;
+    public GameObject LabelHolder;
+    public GameObject Rotatables;
     // Start is called before the first frame update
     void Awake()
     {
@@ -33,12 +35,19 @@ public class ConstellationFinder : MonoBehaviour
             float x = distance * Mathf.Cos(dAngle) * Mathf.Cos(raAngle);
             float y = distance * Mathf.Cos(dAngle) * Mathf.Sin(raAngle);
             float z = distance * Mathf.Sin(dAngle);
-            GameObject newLabel = (GameObject)Instantiate(Label, new Vector3(x, y, z), Quaternion.identity);
+            GameObject newLabel = (GameObject)Instantiate(Label, new Vector3(x, y, z), Quaternion.identity, LabelHolder.transform);
             newLabel.transform.LookAt(new Vector3(0, 0, 0));
             newLabel.transform.rotation = transform.rotation;
             newLabel.GetComponentInChildren<TextMeshProUGUI>().text = names[i];
             labelArray[i] = newLabel;
         }
+        Rotatables.transform.Rotate(0, 90, 0, Space.World);
+        Rotatables.transform.Rotate(0, 0, 180, Space.Self);
+    }
+
+    private void Start()
+    {
+        
     }
 
     // Update is called once per frame

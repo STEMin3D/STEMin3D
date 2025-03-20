@@ -17,7 +17,7 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 0
   skyIntensityMode:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0
   exposure:
     m_OverrideState: 0
@@ -74,8 +74,8 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 55279.93
   aerosolDensity:
-    m_OverrideState: 0
-    m_Value: 0.56
+    m_OverrideState: 1
+    m_Value: 0.087
   aerosolTint:
     m_OverrideState: 0
     m_Value: {r: 1, g: 1, b: 1, a: 1}
