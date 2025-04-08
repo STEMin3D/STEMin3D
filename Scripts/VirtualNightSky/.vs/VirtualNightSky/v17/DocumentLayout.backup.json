@@ -3,40 +3,36 @@
   "WorkspaceRootPath": "C:\\Github\\STEMin3D\\STEMin3D\\Scripts\\VirtualNightSky\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6AB4FD8B-082C-96F4-CC8A-B96F87FBBC06}|Assembly-CSharp.csproj|c:\\github\\stemin3d\\stemin3d\\scripts\\virtualnightsky\\assets\\scripts\\customcompasscontrols.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AB4FD8B-082C-96F4-CC8A-B96F87FBBC06}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\customcompasscontrols.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\github\\stemin3d\\stemin3d\\scripts\\virtualnightsky\\assets\\customcompasscontrols.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\customcompasscontrols.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6AB4FD8B-082C-96F4-CC8A-B96F87FBBC06}|Assembly-CSharp.csproj|C:\\Github\\STEMin3D\\STEMin3D\\Scripts\\VirtualNightSky\\assets\\scripts\\constellationfinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AB4FD8B-082C-96F4-CC8A-B96F87FBBC06}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\constellationfinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6AB4FD8B-082C-96F4-CC8A-B96F87FBBC06}|Assembly-CSharp.csproj|C:\\Github\\STEMin3D\\STEMin3D\\Scripts\\VirtualNightSky\\assets\\scripts\\starfield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6AB4FD8B-082C-96F4-CC8A-B96F87FBBC06}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\starfield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6AB4FD8B-082C-96F4-CC8A-B96F87FBBC06}|Assembly-CSharp.csproj|C:\\Github\\STEMin3D\\STEMin3D\\Scripts\\VirtualNightSky\\assets\\scripts\\stardataloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AB4FD8B-082C-96F4-CC8A-B96F87FBBC06}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\stardataloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6AB4FD8B-082C-96F4-CC8A-B96F87FBBC06}|Assembly-CSharp.csproj|C:\\Github\\STEMin3D\\STEMin3D\\Scripts\\VirtualNightSky\\assets\\scripts\\celestialobjectscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AB4FD8B-082C-96F4-CC8A-B96F87FBBC06}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\celestialobjectscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6AB4FD8B-082C-96F4-CC8A-B96F87FBBC06}|Assembly-CSharp.csproj|C:\\Github\\STEMin3D\\STEMin3D\\Scripts\\VirtualNightSky\\assets\\scripts\\sunsimmer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6AB4FD8B-082C-96F4-CC8A-B96F87FBBC06}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\sunsimmer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6AB4FD8B-082C-96F4-CC8A-B96F87FBBC06}|Assembly-CSharp.csproj|C:\\Github\\STEMin3D\\STEMin3D\\Scripts\\VirtualNightSky\\assets\\resources\\constellations.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{6AB4FD8B-082C-96F4-CC8A-B96F87FBBC06}|Assembly-CSharp.csproj|solutionrelative:assets\\resources\\constellations.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{6AB4FD8B-082C-96F4-CC8A-B96F87FBBC06}|Assembly-CSharp.csproj|C:\\Github\\STEMin3D\\STEMin3D\\Scripts\\VirtualNightSky\\assets\\scripts\\constellationfinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AB4FD8B-082C-96F4-CC8A-B96F87FBBC06}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\constellationfinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AB4FD8B-082C-96F4-CC8A-B96F87FBBC06}|Assembly-CSharp.csproj|C:\\Github\\STEMin3D\\STEMin3D\\Scripts\\VirtualNightSky\\assets\\scripts\\stardataloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AB4FD8B-082C-96F4-CC8A-B96F87FBBC06}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\stardataloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AB4FD8B-082C-96F4-CC8A-B96F87FBBC06}|Assembly-CSharp.csproj|c:\\github\\stemin3d\\stemin3d\\scripts\\virtualnightsky\\assets\\scripts\\customcompasscontrols.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AB4FD8B-082C-96F4-CC8A-B96F87FBBC06}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\customcompasscontrols.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6AB4FD8B-082C-96F4-CC8A-B96F87FBBC06}|Assembly-CSharp.csproj|C:\\Github\\STEMin3D\\STEMin3D\\Scripts\\VirtualNightSky\\assets\\scripts\\locationchange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6AB4FD8B-082C-96F4-CC8A-B96F87FBBC06}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\locationchange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AB4FD8B-082C-96F4-CC8A-B96F87FBBC06}|Assembly-CSharp.csproj|C:\\Github\\STEMin3D\\STEMin3D\\Scripts\\VirtualNightSky\\assets\\scripts\\celestialobjectscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AB4FD8B-082C-96F4-CC8A-B96F87FBBC06}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\celestialobjectscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AB4FD8B-082C-96F4-CC8A-B96F87FBBC06}|Assembly-CSharp.csproj|C:\\Github\\STEMin3D\\STEMin3D\\Scripts\\VirtualNightSky\\assets\\resources\\constellations.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{6AB4FD8B-082C-96F4-CC8A-B96F87FBBC06}|Assembly-CSharp.csproj|solutionrelative:assets\\resources\\constellations.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6AB4FD8B-082C-96F4-CC8A-B96F87FBBC06}|Assembly-CSharp.csproj|C:\\Github\\STEMin3D\\STEMin3D\\Scripts\\VirtualNightSky\\assets\\scripts\\buttonactivatesobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -123,17 +119,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "CustomCompassControls.cs",
               "DocumentMoniker": "C:\\Github\\STEMin3D\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\Scripts\\CustomCompassControls.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CustomCompassControls.cs",
               "ToolTip": "C:\\Github\\STEMin3D\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\Scripts\\CustomCompassControls.cs",
               "RelativeToolTip": "Assets\\Scripts\\CustomCompassControls.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAwB8AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAswCMAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-19T23:20:31.357Z",
               "EditorCaption": ""
@@ -141,54 +137,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CustomCompassControls.cs",
-              "DocumentMoniker": "C:\\Github\\STEMin3D\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\CustomCompassControls.cs",
-              "RelativeDocumentMoniker": "Assets\\CustomCompassControls.cs",
-              "ToolTip": "C:\\Github\\STEMin3D\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\CustomCompassControls.cs",
-              "RelativeToolTip": "Assets\\CustomCompassControls.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAByAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T23:08:09.1Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "CompassControl.cs",
-              "DocumentMoniker": "C:\\Github\\STEMin3D\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\RiverExplorer\\Compass\\Scripts\\CompassControl.cs",
-              "RelativeDocumentMoniker": "Assets\\RiverExplorer\\Compass\\Scripts\\CompassControl.cs",
-              "ToolTip": "C:\\Github\\STEMin3D\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\RiverExplorer\\Compass\\Scripts\\CompassControl.cs",
-              "RelativeToolTip": "Assets\\RiverExplorer\\Compass\\Scripts\\CompassControl.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAAwFYAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T22:54:51.759Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "SunSimmer.cs",
               "DocumentMoniker": "C:\\Github\\STEMin3D\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\Scripts\\SunSimmer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SunSimmer.cs",
               "ToolTip": "C:\\Github\\STEMin3D\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\Scripts\\SunSimmer.cs",
               "RelativeToolTip": "Assets\\Scripts\\SunSimmer.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAzwBgAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAACEAAABvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T20:13:30.035Z"
+              "WhenOpened": "2025-03-19T20:13:30.035Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "LocationChange.cs",
               "DocumentMoniker": "C:\\Github\\STEMin3D\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\Scripts\\LocationChange.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\LocationChange.cs",
               "ToolTip": "C:\\Github\\STEMin3D\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\Scripts\\LocationChange.cs",
               "RelativeToolTip": "Assets\\Scripts\\LocationChange.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAA+wCcAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAqwCcAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T22:12:49.048Z"
+              "WhenOpened": "2025-03-18T22:12:49.048Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "CelestialObjectScript.cs",
               "DocumentMoniker": "C:\\Github\\STEMin3D\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\Scripts\\CelestialObjectScript.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CelestialObjectScript.cs",
@@ -200,15 +174,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "StarDataLoader.cs",
               "DocumentMoniker": "C:\\Github\\STEMin3D\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\Scripts\\StarDataLoader.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\StarDataLoader.cs",
               "ToolTip": "C:\\Github\\STEMin3D\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\Scripts\\StarDataLoader.cs",
               "RelativeToolTip": "Assets\\Scripts\\StarDataLoader.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAkwAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T16:04:04.827Z"
+              "WhenOpened": "2025-03-18T16:04:04.827Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -224,31 +199,45 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StarField.cs",
+              "DocumentMoniker": "C:\\Github\\STEMin3D\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\Scripts\\StarField.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\StarField.cs",
+              "ToolTip": "C:\\Github\\STEMin3D\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\Scripts\\StarField.cs",
+              "RelativeToolTip": "Assets\\Scripts\\StarField.cs",
+              "ViewState": "AgIAAL8BAAAAAAAAAAAuwM8BAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T20:20:33.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CompassControl.cs",
+              "DocumentMoniker": "C:\\Github\\STEMin3D\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\RiverExplorer\\Compass\\Scripts\\CompassControl.cs",
+              "RelativeDocumentMoniker": "Assets\\RiverExplorer\\Compass\\Scripts\\CompassControl.cs",
+              "ToolTip": "C:\\Github\\STEMin3D\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\RiverExplorer\\Compass\\Scripts\\CompassControl.cs",
+              "RelativeToolTip": "Assets\\RiverExplorer\\Compass\\Scripts\\CompassControl.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAAwFYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T22:54:51.759Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "ConstellationFinder.cs",
               "DocumentMoniker": "C:\\Github\\STEMin3D\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\Scripts\\ConstellationFinder.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ConstellationFinder.cs",
               "ToolTip": "C:\\Github\\STEMin3D\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\Scripts\\ConstellationFinder.cs",
               "RelativeToolTip": "Assets\\Scripts\\ConstellationFinder.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAUwHYAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAqwHYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T22:22:18.928Z"
+              "WhenOpened": "2025-02-09T22:22:18.928Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "StarField.cs",
-              "DocumentMoniker": "C:\\Github\\STEMin3D\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\Scripts\\StarField.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\StarField.cs",
-              "ToolTip": "C:\\Github\\STEMin3D\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\Scripts\\StarField.cs",
-              "RelativeToolTip": "Assets\\Scripts\\StarField.cs",
-              "ViewState": "AgIAAKABAAAAAAAAAAAgwNUBAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T20:20:33.12Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "SphereShader.shader",
               "DocumentMoniker": "C:\\Github\\STEMin3D\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\SphereShader.shader",
               "RelativeDocumentMoniker": "Assets\\SphereShader.shader",
@@ -260,7 +249,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "ButtonActivatesObject.cs",
               "DocumentMoniker": "C:\\Github\\STEMin3D\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\Scripts\\ButtonActivatesObject.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ButtonActivatesObject.cs",
@@ -272,7 +261,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 26,
               "Title": "SerializableTexture.cs",
               "DocumentMoniker": "C:\\Github\\STEMin3D\\STEMin3D\\Scripts\\VirtualNightSky\\Library\\PackageCache\\com.unity.shadergraph@14.0.11\\Editor\\Data\\Graphs\\SerializableTexture.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.shadergraph@14.0.11\\Editor\\Data\\Graphs\\SerializableTexture.cs",
@@ -285,7 +274,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 29,
               "Title": "VFXGraph.cs",
               "DocumentMoniker": "C:\\Github\\STEMin3D\\STEMin3D\\Scripts\\VirtualNightSky\\Library\\PackageCache\\com.unity.visualeffectgraph@14.0.11\\Editor\\Models\\VFXGraph.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.visualeffectgraph@14.0.11\\Editor\\Models\\VFXGraph.cs",
@@ -298,7 +287,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 28,
               "Title": "Lit.shader",
               "DocumentMoniker": "C:\\Github\\STEMin3D\\STEMin3D\\Scripts\\VirtualNightSky\\Library\\PackageCache\\com.unity.render-pipelines.high-definition@14.0.11\\Runtime\\Material\\Lit\\Lit.shader",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.high-definition@14.0.11\\Runtime\\Material\\Lit\\Lit.shader",
@@ -311,7 +300,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 27,
               "Title": "VFXLibrary.cs",
               "DocumentMoniker": "C:\\Github\\STEMin3D\\STEMin3D\\Scripts\\VirtualNightSky\\Library\\PackageCache\\com.unity.visualeffectgraph@14.0.11\\Editor\\Core\\VFXLibrary.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.visualeffectgraph@14.0.11\\Editor\\Core\\VFXLibrary.cs",
@@ -324,7 +313,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 21,
               "Title": "CameraRotator.cs",
               "DocumentMoniker": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\CameraRotator.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Scripts\\VirtualNightSky\\Assets\\CameraRotator.cs",
@@ -336,7 +325,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 22,
               "Title": "StarDataLoader.cs",
               "DocumentMoniker": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\StarDataLoader.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Scripts\\VirtualNightSky\\Assets\\StarDataLoader.cs",
@@ -348,7 +337,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 23,
               "Title": "ConstellationFinder.cs",
               "DocumentMoniker": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\ConstellationFinder.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Scripts\\VirtualNightSky\\Assets\\ConstellationFinder.cs",
@@ -360,7 +349,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "Lit.shader",
               "DocumentMoniker": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.11\\Shaders\\Lit.shader",
               "RelativeDocumentMoniker": "..\\..\\..\\Scripts\\VirtualNightSky\\Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.11\\Shaders\\Lit.shader",
@@ -371,7 +360,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 20,
               "Title": "StarField.cs",
               "DocumentMoniker": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\StarField.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Scripts\\VirtualNightSky\\Assets\\StarField.cs",
@@ -383,7 +372,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 19,
               "Title": "CreateShadowObject.cs",
               "DocumentMoniker": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\Samples\\ProBuilder\\5.2.3\\Editor Examples\\CreateShadowObject.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Scripts\\VirtualNightSky\\Assets\\Samples\\ProBuilder\\5.2.3\\Editor Examples\\CreateShadowObject.cs",
@@ -395,7 +384,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\Player.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Scripts\\VirtualNightSky\\Assets\\Player.cs",
@@ -407,7 +396,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 24,
               "Title": "CelestialObjectScript.cs",
               "DocumentMoniker": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\CelestialObjectScript.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Scripts\\VirtualNightSky\\Assets\\CelestialObjectScript.cs",
@@ -419,7 +408,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 25,
               "Title": "DataSetter.cs",
               "DocumentMoniker": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\DataSetter.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Scripts\\VirtualNightSky\\Assets\\DataSetter.cs",
@@ -431,7 +420,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 13,
               "Title": "NewUnlitShader.shader",
               "DocumentMoniker": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\NewUnlitShader.shader",
               "RelativeDocumentMoniker": "..\\..\\..\\Scripts\\VirtualNightSky\\Assets\\NewUnlitShader.shader",
@@ -442,7 +431,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 16,
               "Title": "NewBehaviourScript1.cs",
               "DocumentMoniker": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\NewBehaviourScript1.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Scripts\\VirtualNightSky\\Assets\\NewBehaviourScript1.cs",
@@ -454,7 +443,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 14,
               "Title": "Submesh.cs",
               "DocumentMoniker": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Library\\PackageCache\\com.unity.probuilder@5.2.3\\Runtime\\Core\\Submesh.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Scripts\\VirtualNightSky\\Library\\PackageCache\\com.unity.probuilder@5.2.3\\Runtime\\Core\\Submesh.cs",
@@ -466,7 +455,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 17,
               "Title": "NewBehaviourScript.cs",
               "DocumentMoniker": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\NewBehaviourScript.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Scripts\\VirtualNightSky\\Assets\\NewBehaviourScript.cs",
@@ -478,7 +467,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 18,
               "Title": "Backface Bumped Diffuse.shader",
               "DocumentMoniker": "C:\\Github\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\Backface Bumped Diffuse.shader",
               "RelativeDocumentMoniker": "..\\..\\..\\Scripts\\VirtualNightSky\\Assets\\Backface Bumped Diffuse.shader",
@@ -490,7 +479,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 15,
               "Title": "Earth.cs",
               "DocumentMoniker": "C:\\Users\\jacka\\VirtualNightSky\\Assets\\Earth.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Users\\jacka\\VirtualNightSky\\Assets\\Earth.cs",
@@ -501,7 +490,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "StarShader.shader",
               "DocumentMoniker": "C:\\Github\\STEMin3D\\STEMin3D\\Scripts\\VirtualNightSky\\Assets\\StarShader.shader",
               "RelativeDocumentMoniker": "Assets\\StarShader.shader",
