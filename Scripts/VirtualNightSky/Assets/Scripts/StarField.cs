@@ -1,6 +1,7 @@
 //This code partly comes from user bdougie on Github, but the constellation map code is hand written
 //other portions were also added to meet specific needs of this project
 using System.Collections.Generic;
+using JetBrains.Annotations;
 using TMPro.Examples;
 using UnityEditor.Rendering.HighDefinition;
 using UnityEngine;
@@ -36,12 +37,12 @@ public class StarField : MonoBehaviour
             GameObject stargo = GameObject.CreatePrimitive(PrimitiveType.Quad);
             stargo.transform.parent = transform;
             stargo.name = $"HR {star.catalog_number}";
-            stargo.transform.localPosition = star.position * starFieldScale;
-            //stargo.transform.localScale = Vector3.one * Mathf.Lerp(starSizeMin, starSizeMax, star.size);
+            stargo.transform.localPosition = new Vector3((int)(star.position.x * starFieldScale), (int)(star.position.y * starFieldScale), (int)(star.position.z * starFieldScale));
+            stargo.transform.localScale = 0.25f * Vector3.one * Mathf.Lerp(starSizeMin, starSizeMax, star.size);
             stargo.transform.LookAt(transform.position);
             stargo.transform.Rotate(0, 180, 0);
             stargo.GetComponent<MeshRenderer>().material = starMaterial;
-            HDMaterial.SetEmissiveIntensity(stargo.GetComponent<MeshRenderer>().material, Mathf.Lerp(starSizeMin, starSizeMax, star.size)*25f, EmissiveIntensityUnit.Nits);
+            HDMaterial.SetEmissiveIntensity(stargo.GetComponent<MeshRenderer>().material, Mathf.Lerp(starSizeMin, starSizeMax, star.size)*50f, EmissiveIntensityUnit.Nits);
             HDMaterial.SetEmissiveColor(stargo.GetComponent<MeshRenderer>().material, star.colour);
             starObjects.Add(stargo);
         }
@@ -427,6 +428,7 @@ public class StarField : MonoBehaviour
         }
     }
 
+    public GameObject ConstellationContainer;
     void CreateConstellation(int index)
     {
         int[] constellation = constellations[index].Item1;
@@ -440,7 +442,7 @@ public class StarField : MonoBehaviour
         }
 
         GameObject constellationHolder = new($"Constellation {index}");
-        constellationHolder.transform.parent = transform;
+        constellationHolder.transform.parent = ConstellationContainer.transform;
         constellationVisible[index] = constellationHolder;
 
         // Draw the constellation lines.
@@ -454,6 +456,9 @@ public class StarField : MonoBehaviour
             lineRenderer.sortingOrder = 1;
             // Need to use default sprite shader so lines are visible
             lineRenderer.material = new Material(Shader.Find("Sprites/Default"));
+            Color c1 = new Color(0.7843137254901961f, 0.7843137254901961f, 0.7843137254901961f);
+            lineRenderer.startColor = c1;
+            lineRenderer.endColor = c1;
             // Disable useWorldSpace so it will track the parent game object.
             lineRenderer.useWorldSpace = false;
             Vector3 pos1 = starObjects[lines[i] - 1].transform.position;
