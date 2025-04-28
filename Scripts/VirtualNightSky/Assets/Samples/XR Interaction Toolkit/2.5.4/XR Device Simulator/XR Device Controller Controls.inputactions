@@ -313,28 +313,6 @@
                 },
                 {
                     "name": "",
-                    "id": "c17eb846-7a66-4006-9d57-6b91831868d0",
-                    "path": "<Keyboard>/b",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Primary Button",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "69ce3e33-7d81-423f-b162-7232a5791c2f",
-                    "path": "<Keyboard>/n",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Secondary Button",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
                     "id": "45511393-aa9b-4031-8e31-4eec53ab2d3f",
                     "path": "<Keyboard>/m",
                     "interactions": "",
