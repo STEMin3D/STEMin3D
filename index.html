@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Low-Cost Telescope (LCT) Project | Active Learning Astronomy</title>
+    <style>
+        :root {
+            --primary-color: #0b132b;
+            --secondary-color: #1c2541;
+            --accent-color: #3a506b;
+            --highlight-color: #5bc0be;
+            --text-dark: #1c1917;
+            --text-light: #f8fafc;
+            --bg-light: #f1f5f9;
+            --card-bg: #ffffff;
+            --uga-red: #ba0c2f;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            color: var(--text-dark);
+            background-color: var(--bg-light);
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: var(--text-light);
+            padding: 4rem 2rem;
+            text-align: center;
+            border-bottom: 4px solid var(--uga-red);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            font-weight: 800;
+            letter-spacing: -0.05em;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            max-width: 800px;
+            margin: 0 auto 1.5rem auto;
+            opacity: 0.9;
+        }
+
+        .meta-info {
+            font-size: 0.95rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--highlight-color);
+            font-weight: bold;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 3rem 1.5rem;
+        }
+
+        .section {
+            background-color: var(--card-bg);
+            padding: 2.5rem;
+            border-radius: 12px;
+            margin-bottom: 2.5rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+        }
+
+        h2 {
+            color: var(--primary-color);
+            font-size: 1.75rem;
+            margin-bottom: 1.5rem;
+            border-left: 5px solid var(--uga-red);
+            padding-left: 0.75rem;
+        }
+
+        p {
+            margin-bottom: 1.25rem;
+            font-size: 1.05rem;
+            color: #444;
+        }
+
+        .grid-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+        }
+
+        @media (max-width: 768px) {
+            .grid-2 {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .highlight-box {
+            background-color: #f8fafc;
+            border: 1px solid #e2e8f0;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-top: 1rem;
+        }
+
+        .highlight-box h3 {
+            color: var(--secondary-color);
+            margin-bottom: 0.5rem;
+        }
+
+        /* Budget Tiers Styles */
+        .tiers-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .tier-card {
+            background-color: var(--card-bg);
+            border-top: 4px solid var(--accent-color);
+            border-radius: 8px;
+            padding: 1.5rem;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05);
+            transition: transform 0.2s ease;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .tier-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .tier-card.b1 { border-top-color: #60a5fa; }
+        .tier-card.b2 { border-top-color: #34d399; }
+        .tier-card.b3 { border-top-color: #fbbf24; }
+        .tier-card.b4 { border-top-color: #a78bfa; }
+
+        .tier-header {
+            margin-bottom: 1rem;
+        }
+
+        .tier-badge {
+            display: inline-block;
+            padding: 0.25rem 0.5rem;
+            font-size: 0.8rem;
+            font-weight: bold;
+            border-radius: 4px;
+            margin-bottom: 0.5rem;
+        }
+
+        .b1 .tier-badge { background-color: #dbeafe; color: #1e40af; }
+        .b2 .tier-badge { background-color: #d1fae5; color: #065f46; }
+        .b3 .tier-badge { background-color: #fef3c7; color: #92400e; }
+        .b4 .tier-badge { background-color: #ede9fe; color: #5b21b6; }
+
+        .tier-price {
+            font-size: 1.25rem;
+            font-weight: bold;
+            color: #334155;
+            float: right;
+        }
+
+        .tier-title {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: var(--primary-color);
+            clear: both;
+            margin-top: 0.25rem;
+        }
+
+        .tier-setup {
+            font-size: 0.9rem;
+            color: #64748b;
+            font-style: italic;
+            margin-bottom: 1rem;
+        }
+
+        .tier-list, .general-list {
+            list-style-type: none;
+        }
+
+        .tier-list li, .general-list li {
+            position: relative;
+            padding-left: 1.25rem;
+            margin-bottom: 0.5rem;
+            font-size: 0.95rem;
+        }
+
+        .tier-list li::before, .general-list li::before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: var(--accent-color);
+            font-weight: bold;
+        }
+
+        .tier-hardware {
+            background-color: #f8fafc;
+            padding: 0.75rem;
+            border-radius: 6px;
+            font-size: 0.85rem;
+            margin-top: 1rem;
+            border-left: 3px solid #cbd5e1;
+        }
+
+        /* Lists and Workflows */
+        .general-list li {
+            font-size: 1.05rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .workflow-steps {
+            counter-reset: step-counter;
+            margin-top: 1.5rem;
+        }
+
+        .workflow-step {
+            position: relative;
+            padding-left: 3rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .workflow-step::before {
+            counter-increment: step-counter;
+            content: counter(step-counter);
+            position: absolute;
+            left: 0;
+            top: 0;
+            background-color: var(--primary-color);
+            color: var(--text-light);
+            width: 2rem;
+            height: 2rem;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 2rem;
+            font-weight: bold;
+            font-size: 0.9rem;
+        }
+
+        .workflow-step h4 {
+            color: var(--secondary-color);
+            font-size: 1.1rem;
+            margin-bottom: 0.25rem;
+        }
+
+        footer {
+            background-color: var(--primary-color);
+            color: var(--text-light);
+            text-align: center;
+            padding: 3rem 2rem;
+            border-top: 4px solid var(--uga-red);
+        }
+
+        footer p {
+            color: #94a3b8;
+            font-size: 0.95rem;
+            margin-bottom: 0.5rem;
+        }
+
+        footer a {
+            color: var(--highlight-color);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: var(--uga-red);
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 1rem;
+            transition: background-color 0.2s;
+        }
+
+        .button:hover {
+            background-color: #9e0a27;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="meta-info">Active Learning Astronomy</div>
+        <h1>Low-Cost Telescope (LCT) Project</h1>
+        <p>Democratizing observational astronomy training through affordable hardware, authentic data acquisition pipelines, and scalability for K-12 and undergraduate education.</p>
+        <div style="font-size: 0.9rem; opacity: 0.8;">Project Lead: Inseok Song &bull; University of Georgia</div>
+    </header>
+
+    <div class="container">
+        
+        <div class="section">
+            <h2>Project Overview</h2>
+            <p>The Low-Cost Telescope (LCT) Project addresses a critical gap in astronomy education: the lack of scalable, hands-on observational experiences. Traditional astronomy labs heavily rely on expensive, department-owned telescopes, severely limiting individual student access and reducing opportunities for student-driven learning.</p>
+            <p>Our solution provides a model where each student has access to an individually operable, low-cost telescope setup paired with accessible digital imaging detectors (like smartphones or low-cost CMOS modules). This methodology shifts the paradigm from remote data consumption to authentic, end-to-end scientific processes—including instrument physical setup, target alignment, calibration, and data reduction.</p>
+        </div>
+
+        <div class="section">
+            <h2>Why LCT? Core Advantages</h2>
+            <div class="grid-2">
+                <div>
+                    <ul class="general-list">
+                        <li><strong>Hands-on Instrumentation:</strong> Students learn telescope setup, optical collimation, system alignment, and sensor calibration natively.</li>
+                        <li><strong>Authentic Data Pipeline:</strong> End-to-end processing pipeline—from photon capture to dark/flat frames subtraction, frame stacking, and error analysis.</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="general-list">
+                        <li><strong>High Access, High Skills:</strong> Moving closer to a 1:1 student-to-telescope model enables repeated trial, flexible scheduling, and deeper analytical proficiency.</li>
+                        <li><strong>Scalable Deployment:</strong> Multi-tiered configuration options adapt perfectly to K-12 budgets, general undergraduate courses, and advanced astrophysics labs.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>LCT Budget Tiers & Hardware Overview</h2>
+            <p>Select the configuration tier that best matches your target student cohort, learning objectives, and institutional constraints.</p>
+            
+            <div class="tiers-grid">
+                <!-- B1 -->
+                <div class="tier-card b1">
+                    <div class="tier-header">
+                        <span class="tier-badge">Tier B1</span>
+                        <span class="tier-price">~$50</span>
+                        <div class="tier-title">DIY Reflector</div>
+                        <div class="tier-setup">DIY parts + ESP32-CAM</div>
+                    </div>
+                    <ul class="tier-list">
+                        <li>Assembly & optical collimation</li>
+                        <li>FOV measurement exercises</li>
+                        <li>Basic relative photometry</li>
+                    </ul>
+                    <div class="tier-hardware">
+                        <strong>Hardware:</strong> 3" polished spherical mirror, matching secondary mirror, 3D printed focuser, PVC main tube, ESP32-CAM module.
+                    </div>
+                </div>
+
+                <!-- B2 -->
+                <div class="tier-card b2">
+                    <div class="tier-header">
+                        <span class="tier-badge">Tier B2</span>
+                        <span class="tier-price">~$100</span>
+                        <div class="tier-title">Entry Imaging</div>
+                        <div class="tier-setup">FirstScope + Smartphone</div>
+                    </div>
+                    <ul class="tier-list">
+                        <li>Moon phases & structural mapping</li>
+                        <li>Venus illumination geometry</li>
+                        <li>Galilean moon tracking</li>
+                        <li>Light-pollution mapping</li>
+                    </ul>
+                    <div class="tier-hardware">
+                        <strong>Hardware:</strong> Celestron FirstScope commercial assembly, universal rigid smartphone eyepiece adapter.
+                    </div>
+                </div>
+
+                <!-- B3 -->
+                <div class="tier-card b3">
+                    <div class="tier-header">
+                        <span class="tier-badge">Tier B3</span>
+                        <span class="tier-price">~$200</span>
+                        <div class="tier-title">Advanced Imaging</div>
+                        <div class="tier-setup">FirstScope + CMOS</div>
+                    </div>
+                    <ul class="tier-list">
+                        <li>Variable star photometry</li>
+                        <li>Cluster H-R diagrams</li>
+                        <li>Asteroid positional tracking</li>
+                    </ul>
+                    <div class="tier-hardware">
+                        <strong>Hardware:</strong> Celestron FirstScope base mated with a dedicated ZWO ASI662MC high-QE planetary CMOS detector.
+                    </div>
+                </div>
+
+                <!-- B4 -->
+                <div class="tier-card b4">
+                    <div class="tier-header">
+                        <span class="tier-badge">Tier B4</span>
+                        <span class="tier-price">$350+</span>
+                        <div class="tier-title">Smart Telescope</div>
+                        <div class="tier-setup">Automated Smart Scope</div>
+                    </div>
+                    <ul class="tier-list">
+                        <li>Deep-sky stack imaging</li>
+                        <li>Galaxy & nebula morphology</li>
+                        <li>Directed student research</li>
+                    </ul>
+                    <div class="tier-hardware">
+                        <strong>Hardware:</strong> SeeStar S30 fully automated, self-contained alt-az smart telescope with built-in auto-guiding.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Implementation Workflow</h2>
+            <div class="workflow-steps">
+                <div class="workflow-step">
+                    <h4>1. Configuration Selection</h4>
+                    <p>Select Tier B1–B4 depending on course constraints, student prerequisite technical levels, and regional sky-brightness criteria.</p>
+                </div>
+                <div class="workflow-step">
+                    <h4>2. Assembly & Optical Alignment</h4>
+                    <p>Students assemble mechanical fixtures, establish critical optical alignment (collimation), and initialize detector focus limits.</p>
+                </div>
+                <div class="workflow-step">
+                    <h4>3. Target Acquisition & Data Collection</h4>
+                    <p>Execution of scheduled observation sessions. Students capture light frames alongside bias, dark, and flat frames for mandatory image calibration.</p>
+                </div>
+                <div class="workflow-step">
+                    <h4>4. Data Processing & Stacking</h4>
+                    <p>Calibrating images using raw darks/flats, aligning frame coordinates, and stacking signals to optimize Signal-to-Noise Ratio (SNR).</p>
+                </div>
+                <div class="workflow-step">
+                    <h4>5. Analysis & Quantitative Reporting</h4>
+                    <p>Conducting final analysis (e.g., differential aperture photometry, astrometric tracking) and compiling results in standard lab note formats.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section" style="text-align: center;">
+            <h2>Get Involved / Open Educational Resources</h2>
+            <p>Are you an instructor looking to pilot LCT frameworks, access comprehensive lab manuals, or share dataset pipelines? Contact us to collaborate.</p>
+            <a href="mailto:song@uga.edu" class="button">Contact Project Lead</a>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Low-Cost Telescope (LCT) Project. All Rights Reserved.</p>
+        <p>Affiliated with the Department of Physics and Astronomy &bull; University of Georgia</p>
+        <p>Inquiries: <a href="mailto:song@uga.edu">song@uga.edu</a></p>
+    </footer>
+
+</body>
+</html>
